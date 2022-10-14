@@ -41,108 +41,9 @@
         <!--================= Preloader Section End Here =================-->
 
         <!--================= Header Section Start Here =================-->
-        <header id="back-header" class="back-header">
-            <div class="menu-part">
-                <div class="container">
-                    <!--================= Back Menu Start Here =================-->
-                    <div class="back-main-menu">
-                        <nav>
-                            <!--================= Menu Toggle btn =================-->
-                            <div class="menu-toggle">
-                                <div class="logo"><a href="index.html" class="logo-text"> <img src="assets/images/logo.png" alt="logo"> </a></div>
-                                <button type="button" id="menu-btn">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <!--================= Menu Structure =================--> 
-                            <div class="back-inner-menus">
-                                <ul id="backmenu" class="back-menus back-sub-shadow">
-                                    <li> <a href="#">Home</a>
-                                        <ul>
-                                            <li> <a href="index.html">Home One</a></li> 
-                                            <li> <a href="index-two.html">Home Two</a></li> 
-                                            <li> <a href="index-three.html">Home Three</a></li> 
-                                            <li> <a href="index-four.html">Home Four</a></li> 
-                                        </ul>
-                                    </li>
-                                    <li> <a href="#">Pages</a>
-                                        <ul>
-                                            <li> <a href="about.html">About</a></li> 
-                                            <li> <a href="instructor.html">Instructor</a></li> 
-                                            <li> <a href="profile.html">Profile</a></li> 
-                                            <li> <a href="login.html">Sign In</a></li> 
-                                            <li> <a href="signup.html">Sign Up</a></li> 
-                                            <li> <a href="404.html">Error 404</a></li> 
-                                        </ul>
-                                    </li>                                                                   
-                                    <li> <a href="coureses-grid.html">Courses</a>
-                                        <ul>
-                                            <li><a href="coureses-grid.html">Courses</a>
-                                                <ul>
-                                                    <li><a href="coureses-grid.html">Classic</a></li>
-                                                    <li><a href="coureses-left-sidebar.html">Left Sidebar</a></li>
-                                                    <li><a href="coureses-right-sidebar.html">Right Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="coureses-list.html">Courses List</a></li>
-                                            <li><a href="coureses-single.html">Courses Single</a>
-                                                <ul>
-                                                    <li><a href="coureses-single.html">Classic</a></li>
-                                                    <li><a href="coureses-single-left.html">Left Sidebar</a></li>
-                                                    <li><a href="coureses-single-right.html">Right Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li> <a href="blog.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul>
-                                                    <li><a href="blog.html">Classic</a></li>
-                                                    <li><a href="blog-left-sidebar.html">Left Sidebar</a></li>
-                                                    <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                                    <li><a href="blog-fullwidth.html">Full Width</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog-details.html">Blog Single</a>
-                                                <ul>
-                                                    <li><a href="blog-details.html">Classic</a></li>
-                                                    <li><a href="blog-details-left.html">Left Sidebar</a></li>
-                                                    <li><a href="blog-details-right.html">Right Sidebar</a></li>
-                                                    <li><a href="blog-details-full.html">Full Width</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li> <a href="contact.html">Contact</a></li>
-                                </ul>
-                                
-                                <div class="searchbar-part">
-                                    <ul class="back-category-menu">
-                                        <li><a href="#">Categories <i class="arrow_carrot-down"></i></a> 
-                                            <ul>
-                                                <li><a href="#">English Book</a></li>
-                                                <li><a href="#">Math Book</a></li>
-                                                <li><a href="#">Story Book</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>                                    
-                                    <form class="search-form">
-                                        <input type="text" class="form-input" placeholder="Search Course">
-                                        <button type="submit" class="form-button">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                    <!--=================  Back Menu End Here  =================-->
-                </div>
-            </div>
-        </header>
+      <?php
+      include("include/header.php");
+      ?>
         <!--================= Header Section End Here =================-->
 
         <!--================= Back Wrapper Start Here =================-->
@@ -864,83 +765,9 @@
         <!--================= Newsletter Section End Here =================-->
 
         <!--================= Footer Section Start Here =================-->
-        <footer id="back-footer" class="back-footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 md-mb-30">
-                            <div class="footer-widget footer-widget-1">
-                                <div class="footer-logo white">
-                                    <a href="index.html" class="logo-text"> <img src="assets/images/logo.png" alt="logo"></a>
-                                </div>
-                                <h5 class="footer-subtitle">We have lots of courses and programs from the main market experts.</h5>
-                                <h6 class="back-follow-us">Follow us</h6>
-                                <ul class="social-links">
-                                    <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                    <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                    <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                </ul>                                
-                            </div>
-                        </div>
-                        <div class="col-lg-3 md-mb-30">
-                            <div class="footer-widget footer-widget-2">
-                                <h3 class="footer-title">About Us</h3>
-                                <div class="footer-menu">
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="coureses-grid.html">Courses</a></li>
-                                        <li><a href="#">Events</a></li>
-                                        <li><a href="#">Career</a></li>
-                                        <li><a href="profile.html">Become a Teacher</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 md-mb-30">
-                            <div class="footer-widget footer-widget-2">
-                                <h3 class="footer-title">Quick links</h3>
-                                <div class="footer-menu">
-                                    <ul>
-                                        <li><a href="#">Browse Library</a></li>
-                                        <li><a href="#">Library</a></li>
-                                        <li><a href="#">Partners</a></li>
-                                        <li><a href="blog.html">News & Blog</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Tutorials</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="footer-widget footer-widget-3">
-                                <h3 class="footer-title">Instagram</h3>
-                                <ul class="back-instagram">
-                                    <li><a href="#"><img src="assets/images/instagram/1.jpg" alt="Instagram"></a></li>
-                                    <li><a href="#"><img src="assets/images/instagram/2.jpg" alt="Instagram"></a></li>
-                                    <li><a href="#"><img src="assets/images/instagram/3.jpg" alt="Instagram"></a></li>
-                                    <li><a href="#"><img src="assets/images/instagram/4.jpg" alt="Instagram"></a></li>
-                                    <li><a href="#"><img src="assets/images/instagram/5.jpg" alt="Instagram"></a></li>
-                                    <li><a href="#"><img src="assets/images/instagram/6.jpg" alt="Instagram"></a></li>
-                                </ul>                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="copyright">  
-                <div class="container">                  
-                    <div class="back-copy-left">@ 2022 All Copyright Reserved. Share By <a href="https://nullphpscript.com">HTML Template</a></div>
-                    <div class="back-copy-right">
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms And Conditions</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php
+        include("include/footer.php");
+        ?>
         <!--================= Footer Section End Here =================-->
         
         <!--================= Scroll to Top Start =================-->
