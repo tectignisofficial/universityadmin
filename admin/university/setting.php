@@ -83,6 +83,31 @@ if(isset($_POST['instaMojoSubmit'])){
 
 ?>
 
+<?php
+include("include/config.php");
+if(isset($_POST["changePassword"])){
+	$currentPassword=$_POST["currentPassword"];
+	$newPassword=$_POST["newPassword"];
+
+	$sql = mysqli_query($conn,"SELECT * FROM admin_login");
+		$row=mysqli_fetch_assoc($sql); 
+		$verify=password_verify($currentPassword,$row['password']);
+	
+	$hashpassword=password_hash($newPassword,PASSWORD_BCRYPT);
+
+		if($verify==1){ 
+			$query=mysqli_query($conn,"UPDATE `admin_login` SET `password`='$hashpassword'");
+      if($query){
+        // session_destroy();   // function that Destroys Session 
+        echo "<script>alert('Password Changed Successfully'),window.location='setting.php';</script>";
+      }
+		}
+		else{
+			echo"<script>alert('Invalid Password');</script>";
+		}
+	
+	}
+?>
 
 
 <!doctype html>
@@ -262,7 +287,7 @@ if(isset($_POST['instaMojoSubmit'])){
                         </div>                    
                     </div>
                     <div class="tab-pane" id="Roles_Permissions">
-                    <?php
+                         <?php
                                $sql=mysqli_query($conn,"select * from payments ");
                                while($row = mysqli_fetch_array($sql)) {
 
@@ -481,42 +506,29 @@ if(isset($_POST['instaMojoSubmit'])){
                             <div class="card-header">
                                 <h3 class="card-title">Change Password</h3>
                             </div>
+                            <form method="post">
                             <div class="card-body">
                                 <div class="row clearfix">
-                                    <div class="col-lg-4 col-md-12">
-                                        <div class="form-group">                                                
-                                            <input type="text" class="form-control" value="louispierce" disabled="" placeholder="Username">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" value="louis.info@yourdomain.com" placeholder="Email">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Phone Number">
-                                        </div>
-                                    </div>                                
+                                                                
                                     <div class="col-lg-12 col-md-12">
-                                        <hr>
                                         <h6>Change Password</h6>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Current Password">
+                                            <input type="password" name="currentPassword" class="form-control" placeholder="Current Password">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="New Password">
+                                            <input type="password" id="pswd1" class="form-control" placeholder="New Password">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" placeholder="Confirm New Password">
+                                            <input type="password" id="pswd2"  class="form-control" name="newPassword" placeholder="Confirm New Password">
                                         </div>
                                     </div>
                                     <div class="col-sm-12 m-t-20 text-right">
-                                        <button type="button" class="btn btn-primary">SAVE</button> &nbsp;
-                                        <button type="button" class="btn btn-default">CANCEL</button>
+                                        <button type="submit" class="btn btn-primary" name="changePassword">SAVE</button> &nbsp;
+                                        <button type="reset" class="btn btn-default">CANCEL</button>
                                     </div>
                                 </div>
                             </div>
+                               </form>
                         </div>
                     </div>
                 </div>
@@ -536,5 +548,21 @@ if(isset($_POST['instaMojoSubmit'])){
 <!-- Start project main js  and page js -->
 <script src="../assets/js/core.js"></script>
 <script src="assets/js/form/dropify.js"></script>
+
+<script>  
+var password = document.getElementById("pswd1")
+  , confirm_password = document.getElementById("pswd2");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+</script>   
 </body>
 </html>
