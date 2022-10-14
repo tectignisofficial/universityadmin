@@ -48,11 +48,14 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="footer-widget footer-widget-3">
-                                <h3 class="footer-title">Email</h3>
-                                <ul class="footer-menu">
-                                <li><a href="#">admission@</a></li> 
-                                <li><a href="#">placement@</a></li>
-                                <li><a href="#">info@</a></li>   
+                                <h3 class="footer-title">Instagram</h3>
+                                <ul class="back-instagram">
+                                    <li><a href="#"><img src="assets/images/instagram/1.jpg" alt="Instagram"></a></li>
+                                    <li><a href="#"><img src="assets/images/instagram/2.jpg" alt="Instagram"></a></li>
+                                    <li><a href="#"><img src="assets/images/instagram/3.jpg" alt="Instagram"></a></li>
+                                    <li><a href="#"><img src="assets/images/instagram/4.jpg" alt="Instagram"></a></li>
+                                    <li><a href="#"><img src="assets/images/instagram/5.jpg" alt="Instagram"></a></li>
+                                    <li><a href="#"><img src="assets/images/instagram/6.jpg" alt="Instagram"></a></li>
                                 </ul>                               
                             </div>
                         </div>
@@ -62,7 +65,7 @@
             
             <div class="copyright">  
                 <div class="container">                  
-                    <div class="back-copy-left">@ 2022 All Copyright Reserved.  Developed by <a href="https://tectignis.in">Tectignis IT Solutions.</a></div>
+                    <div class="back-copy-left">@ 2022 All Copyright Reserved. Developed By <a href="https://tectignis.in">Tectignis IT Solutions.</a></div>
                     <div class="back-copy-right">
                         <ul>
                             <li><a href="#">Privacy Policy</a></li>

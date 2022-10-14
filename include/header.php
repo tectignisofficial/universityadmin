@@ -27,29 +27,17 @@
 
                             <li> <a href="about-us.php">About us</a></li>
 
-                            <li> <a href="courses.php">Courses</a>
-                                <!-- <ul>
-                                    <li><a href="coureses-grid.html">Courses</a>
-                                        <ul>
-                                            <li><a href="coureses-grid.html">Classic</a></li>
-                                            <li><a href="coureses-left-sidebar.html">Left Sidebar</a></li>
-                                            <li><a href="coureses-right-sidebar.html">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="coureses-list.html">Courses List</a></li>
-                                    <li><a href="coureses-single.html">Courses Single</a>
-                                        <ul>
-                                            <li><a href="coureses-single.html">Classic</a></li>
-                                            <li><a href="coureses-single-left.html">Left Sidebar</a></li>
-                                            <li><a href="coureses-single-right.html">Right Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                </ul> -->
+                            <li> <a href="coureses-single.php">Courses</a>
+                                <ul>
+                                    <li><a href="certificatecourse.php">Certificate Course</a></li>
+                                    <li><a href="diplomacourse.php">Diploma Course</a></li>
+                                    <li><a href="mastercourse.php">Master Course</a></li>
+                                </ul>
                             </li>
-                       
+                            <li> <a href="#">Franchise</a></li>
                             <li> <a href="placements.php">Placements</a></li>
                             <li> <a href="careers.php">Career</a></li>
-                            <li> <a href="contactus.php">Contact us</a></li>
+                            <li> <a href="contact-us.php">Contact us</a></li>
                         </ul>
                         
                         <!-- <div class="searchbar-part">
