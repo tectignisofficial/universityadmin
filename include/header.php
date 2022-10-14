@@ -46,7 +46,7 @@
                                     </li>
                                 </ul> -->
                             </li>
-                            <li> <a href="blog.html"></a></li>
+                       
                             <li> <a href="placements.php">Placements</a></li>
                             <li> <a href="careers.php">Career</a></li>
                             <li> <a href="contactus.php">Contact us</a></li>
