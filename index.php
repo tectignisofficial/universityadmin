@@ -34,10 +34,7 @@
     </head>
     <body> 
         <!--================= Preloader Section Start Here =================-->        
-        <div id="back__preloader">
-            <div id="back__circle_loader"></div>
-            <div class="back__loader_logo"><img src="assets/images/preload.png" alt="Preload"></div>
-        </div>        
+        
         <!--================= Preloader Section End Here =================-->
 
         <!--================= Header Section Start Here =================-->
@@ -45,12 +42,42 @@
       include("include/header.php");
       ?>
         <!--================= Header Section End Here =================-->
-
-        <!--================= Back Wrapper Start Here =================-->
+        <!--================= back wrapper Start Here =================-->
         <div class="back-wrapper">
             <div class="back-wrapper-inner">
-                <!--================= Slider Section Start =================-->
-                <div class="container">
+            <div class="home-banner-part">
+                    <div class="banner-img">
+                        <img class="desktop" src="assets/images/banner/slide1.jpg" alt="Banner Image">
+                        <img class="back__shape__1" src="assets/images/banner/01.png" alt="Shape Image">
+                        <img class="back__shape__2" src="assets/images/banner/02.png" alt="Shape Image">
+                        <img class="back__shape__3" src="assets/images/banner/03.png" alt="Shape Image">
+                        <img class="back__shape__4" src="assets/images/banner/04.png" alt="Shape Image">
+                        <img class="back__shape__5" src="assets/images/banner/05.png" alt="Shape Image">
+                        <div class="back__hero__card">
+                            <div class="back__thumb">
+                                <a href="#"><img src="assets/images/banner/1.jpg" alt="image"></a>
+                                <span class="back__price">$26</span>
+                            </div>
+                            <div class="hero__card-content">
+                                <a class="back-category">Audio &amp; Music</a>
+                                <h3 class="back-course-title"><a href="coureses-single.html">Learning to write as a Professional.</a></h3>
+                                <div class="hero__card-icon d-flex align-items-center">
+                                    <div class="hero__card-icon--1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                        <span>500k+</span>
+                                    </div>
+                                    <div class="hero__card-icon--2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                        <span>4.9</span>
+                                    </div>
+                                    <div class="back__user">
+                                        <img src="assets/images/banner/thumb.jpg" alt="user">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
                         <div class="banner-content">
                             <div class="back-sec-title">
                                 <h1 class="banner-title">The best<br> University Courses <br>for better world</h1>
@@ -61,7 +88,11 @@
                             </div>
                         </div>
                     </div>
-                <!--================= Slider Section End Here =================--> 
+                </div>
+            <div class="container">
+                       
+                       
+                    
 
                 <!--================= Category Section Start  Here =================-->
                 <div class="category__area p-relative">
@@ -124,7 +155,7 @@
                                         <div class="category__inner">
                                             <div class="category__wrapper category__wrapper6 mb-15">
                                                 <img src="assets/images/category/6.svg" alt="Sports icon">
-                                                <h4><a href="">Sports &amp; Fitness</a></h4>
+                                                <h4><a href="">Sports & Fitness</a></h4>
                                             </div>
                                         </div>
                                     </div>
@@ -236,7 +267,7 @@
                             <div class="col-lg-7 pl-70 sm-pl-15">
                                 <div class="about__content">
                                     <h6>Everything In Dlear</h6>
-                                    <h2 class="about__title">Our Impressive Courses <br>Audio, Video, &amp; Live Classess</h2>
+                                    <h2 class="about__title">Our Impressive Courses <br>Audio, Video, & Live Classess</h2>
                                     <p class="about__paragraph">Spend some time to visit our website or head office <br>and discover our current courses.</p>
                                     <ul>
                                         <li><i class="icon_check"></i> Best teaching</li>
@@ -274,8 +305,8 @@
                             </div>
                         </div>                       
 
-                        <div class="row back-grid" style="position: relative; height: 1540px;">                            
-                            <div class="single-studies col-lg-6 grid-item filter2 filter1" style="position: absolute; left: 0%; top: 0px;">
+                        <div class="row back-grid">                            
+                            <div class="single-studies col-lg-6 grid-item filter2 filter1">
                                 <div class="inner-course">
                                     <div class="case-img">
                                         <img src="assets/images/course-filter/1.jpg" alt="Course Image">
@@ -296,7 +327,7 @@
                                     </div>
                                 </div>
                             </div> 
-                            <div class="single-studies col-lg-6 grid-item filter3 filter1" style="position: absolute; left: 0%; top: 385px;">
+                            <div class="single-studies col-lg-6 grid-item filter3 filter1">
                                 <div class="inner-course">
                                     <div class="case-img">
                                         <img src="assets/images/course-filter/2.jpg" alt="Course Image">
@@ -317,7 +348,7 @@
                                     </div>
                                 </div>
                             </div> 
-                            <div class="single-studies col-lg-6 grid-item filter3 filter2" style="position: absolute; left: 0%; top: 770px;">
+                            <div class="single-studies col-lg-6 grid-item filter3 filter2">
                                 <div class="inner-course">
                                     <div class="case-img">
                                         <img src="assets/images/course-filter/3.jpg" alt="Course Image">
@@ -338,7 +369,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="single-studies col-lg-6 grid-item filter2 filter1" style="position: absolute; left: 0%; top: 1155px;">
+                            <div class="single-studies col-lg-6 grid-item filter2 filter1">
                                 <div class="inner-course">
                                     <div class="case-img">
                                         <img src="assets/images/course-filter/4.jpg" alt="Course Image">
@@ -620,31 +651,8 @@
                             <h2 class="back__tittle"> Student Community <br>Feedback </h2>
                         </div>
                         <div class="container">
-                            <div class="client-slider owl-carousel owl-loaded owl-drag">
-                                
-                                
-                                
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-702px, 0px, 0px); transition: all 0s ease 0s; width: 2457px;"><div class="owl-item cloned" style="width: 321px; margin-right: 30px;"><div class="single-client">
-                                    <div class="client-bottom">
-                                        <div class="testimonial__ratings">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                            <span>4.9</span>
-                                        </div>
-                                        <span class="client-author"><img src="assets/images/testemonial/02.jpg" alt="Testimonials"> </span>           
-                                    </div>
-                                    <span class="client-title">Gunther Beard <em> Student </em></span>
-                                    <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
-                                </div></div><div class="owl-item cloned" style="width: 321px; margin-right: 30px;"><div class="single-client">
-                                    <div class="client-bottom">
-                                        <div class="testimonial__ratings">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                            <span>4.9</span>
-                                        </div>
-                                        <span class="client-author"><img src="assets/images/testemonial/01.jpg" alt="Testimonials"> </span>
-                                    </div>
-                                    <span class="client-title">Justin Case <em> Student </em></span>
-                                    <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
-                                </div></div><div class="owl-item active" style="width: 321px; margin-right: 30px;"><div class="single-client">
+                            <div class="client-slider owl-carousel">
+                                <div class="single-client">
                                     <div class="client-bottom">
                                         <div class="testimonial__ratings">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
@@ -654,7 +662,8 @@
                                     </div>
                                     <span class="client-title">Justin Case <em> Student</em></span>
                                     <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
-                                </div></div><div class="owl-item active" style="width: 321px; margin-right: 30px;"><div class="single-client">
+                                </div>
+                                <div class="single-client">
                                     <div class="client-bottom">
                                         <div class="testimonial__ratings">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
@@ -664,7 +673,8 @@
                                     </div>
                                     <span class="client-title">Gunther Beard <em> Student </em></span>
                                     <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
-                                </div></div><div class="owl-item" style="width: 321px; margin-right: 30px;"><div class="single-client">
+                                </div>
+                                <div class="single-client">
                                     <div class="client-bottom">
                                         <div class="testimonial__ratings">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
@@ -674,27 +684,8 @@
                                     </div>
                                     <span class="client-title">Justin Case <em> Student </em></span>
                                     <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
-                                </div></div><div class="owl-item cloned" style="width: 321px; margin-right: 30px;"><div class="single-client">
-                                    <div class="client-bottom">
-                                        <div class="testimonial__ratings">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                            <span>4.9</span>
-                                        </div>
-                                        <span class="client-author"><img src="assets/images/testemonial/01.jpg" alt="Testimonials"> </span>
-                                    </div>
-                                    <span class="client-title">Justin Case <em> Student</em></span>
-                                    <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
-                                </div></div><div class="owl-item cloned" style="width: 321px; margin-right: 30px;"><div class="single-client">
-                                    <div class="client-bottom">
-                                        <div class="testimonial__ratings">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                            <span>4.9</span>
-                                        </div>
-                                        <span class="client-author"><img src="assets/images/testemonial/02.jpg" alt="Testimonials"> </span>           
-                                    </div>
-                                    <span class="client-title">Gunther Beard <em> Student </em></span>
-                                    <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
-                                </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                                </div>
+                            </div>
                         </div>
                         <div class="text-center pt-50">
                             <a href="#" class="back-btn">See all Feedback</a>
@@ -703,37 +694,7 @@
                 </div>             
                 <!--================= Clients Section End Here =================--> 
 
-                <!--================= Newsletter Section Start Here =================-->
-                <div class="newsletter2__area p-relative">
-                    <div class="newsletter2__shape">
-                        <img class="newsletter2__shape-1" src="assets/images/newsletter2/shape/01.png" alt="shape icon">
-                        <img class="newsletter2__shape-2" src="assets/images/newsletter2/shape/02.png" alt=" shape icon">
-                        <img class="newsletter2__shape-3" src="assets/images/newsletter2/shape/03.png" alt="shape icon">
-                        <img class="newsletter2__shape-4" src="assets/images/newsletter2/shape/04.png" alt="shape icon">
-                        <img class="newsletter2__shape-5" src="assets/images/newsletter2/shape/05.png" alt="shape icon">
-                        <img class="newsletter2__shape-6" src="assets/images/newsletter2/shape/06.png" alt="shape icon">
-                    </div>
-                    <div class="container newsletter2__width">
-                        <div class="row">
-                            <div class="col-xxl-12">
-                                <div class="newsletter2__wrapper pt-90 pb-130 text-center">
-                                    <div class="newsletter2__content">
-                                        <h2 class="newsletter2__title">Subscribe Newslatter</h2>
-                                        <p class="newsletter2__paragraph">Enter your email address to register to our newsletter subscription <br>
-                                            delivered on a regular basis!</p>
-                                    </div>
-                                    <div class="newsletter2__form">
-                                        <form>
-                                            <input type="email" placeholder="Enter your mail">
-                                            <button type="submit">Subscribe</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Newsletter Section End Here =================-->
+
             </div>
         </div>
         <!--================= Back Wrapper End Here =================-->
