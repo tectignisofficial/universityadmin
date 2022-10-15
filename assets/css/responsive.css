@@ -99,7 +99,7 @@
 
 @media only screen and (max-width: 1800px) and (min-width: 1101px)  {
 	.breadcrumbs-courses__single .breadcrumbs-wrap img{
-		height:400px;
+		height:300px;
 	}
 }
 
@@ -140,7 +140,7 @@
 		height: 320px;
 	}
 	.back-breadcrumbs.breadcrumbs-courses__single .breadcrumbs-wrap img{
-		height: 420px;
+		height: 320px;
 	}
 	.back-menus > li > a {
 	    padding: 26px 14px 26px 14px;

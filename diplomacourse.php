@@ -86,8 +86,8 @@
                     <div class="container">
                         <div class="banner-content">
                             <div class="back-sec-title">
-                                <h1 class="banner-title">The best<br> University Courses <br>for better world</h1>
-                                <p class="banner-desc">Thousands of students are already studying in Dlear<br> University for all ages!</p>
+                                <h1 class="banner-title">The best<br> Diploma Courses </h1>
+                                <p class="banner-desc">Boosts your Career by excellent skills.<br> We offer you a brighter future.</p>
                             </div>
                             <div class="banner-btn pt-15">
                                 <a href="coureses-grid.html" class="back-btn">Discover More Course</a>

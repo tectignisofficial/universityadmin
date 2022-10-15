@@ -108,7 +108,7 @@
                                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
-                                                <img src="assets/images/category/1.svg" alt="This is a house icon">
+                                                <img src="assets/images/category/4.svg" alt="This is a house icon">
                                                 <h4><a href="">HTML</a></h4>
                                             </div>
                                         </div>
@@ -116,7 +116,7 @@
                                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper category__wrapper2 mb-15">
-                                                <img src="assets/images/category/2.svg" alt="business icon">
+                                                <img src="assets/images/category/4.svg" alt="business icon">
                                                 <h4><a href="">NETWORKING</a></h4>
                                             </div>
                                         </div>
@@ -146,7 +146,7 @@
                                     <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
-                                                <img src="assets/images/category/5.svg" alt="Music icon">
+                                                <img src="assets/images/category/4.svg" alt="Music icon">
                                                 <h4><a href="">PHP</a></h4>
                                             </div>
                                         </div>
@@ -154,7 +154,7 @@
                                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper category__wrapper6 mb-15">
-                                                <img src="assets/images/category/6.svg" alt="Sports icon">
+                                                <img src="assets/images/category/4.svg" alt="Sports icon">
                                                 <h4><a href="">BOOTSTRAP</a></h4>
                                             </div>
                                         </div>
@@ -162,7 +162,7 @@
                                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
-                                                <img src="assets/images/category/7.svg" alt="Language icon">
+                                                <img src="assets/images/category/4.svg" alt="Language icon">
                                                 <h4><a href="">GRAPHIC DESIGNING</a></h4>
                                             </div>
                                         </div>
@@ -170,7 +170,7 @@
                                     <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
-                                                <img src="assets/images/category/8.svg" alt="ColorPlate icon">
+                                                <img src="assets/images/category/4.svg" alt="ColorPlate icon">
                                                 <h4><a href="">JS</a></h4>
                                             </div>
                                         </div>
@@ -178,7 +178,7 @@
                                     <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
-                                                <img src="assets/images/category/9.svg" alt="Cooking icon">
+                                                <img src="assets/images/category/4.svg" alt="Cooking icon">
                                                 <h4><a href="">MYSQL</a></h4>
                                             </div>
                                         </div>
@@ -192,7 +192,7 @@
                                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
-                                                <img src="assets/images/category/10.svg" alt="Dance icon">
+                                                <img src="assets/images/category/4.svg" alt="Dance icon">
                                                 <h4><a href="">HARDWARE</a></h4>
                                             </div>
                                         </div>
@@ -200,7 +200,7 @@
                                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="category__inner mb-15">
                                             <div class="category__wrapper">
-                                                <img src="assets/images/category/11.svg" alt="Theater icon">
+                                                <img src="assets/images/category/4.svg" alt="Theater icon">
                                                 <h4><a href="">CSS</a></h4>
                                             </div>
                                         </div>
@@ -208,7 +208,7 @@
                                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12">
                                         <div class="category__inner mb-15">
                                             <div class="category__wrapper">
-                                                <img src="assets/images/category/12.svg" alt="Leaf icon">
+                                                <img src="assets/images/category/4.svg" alt="Leaf icon">
                                                 <h4><a href="">COREL DRAW</a></h4>
                                             </div>
                                         </div>
@@ -221,7 +221,7 @@
                 <!--================= Category Section End  Here =================-->
 
                 <!--================= Brand Section Start Here =================-->
-                <div class="brand__area back-logo-area">
+                <!-- <div class="brand__area back-logo-area">
                     <div class="container brand__width">
                         <div class="row">
                             <div class="col-xxl-12">
@@ -250,7 +250,7 @@
                             </div>                           
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!--================= Brand Section End Here =================-->
 
                 <!--=================  About Section Start Here ================= -->
@@ -266,7 +266,6 @@
                             </div>
                             <div class="col-lg-7 pl-70 sm-pl-15">
                                 <div class="about__content">
-                                    <h6>Everything In Dlear</h6>
                                     <h2 class="about__title">Our Impressive Courses <br>Audio, Video, & Live Classess</h2>
                                     <p class="about__paragraph">Spend some time to visit our website or head office <br>and discover our current courses.</p>
                                     <ul>

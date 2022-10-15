@@ -51,20 +51,18 @@
             <div class="back-wrapper-inner">
 
                 <!--================= Back Breadcrumbs Section Start Here =================-->
-                <div class="back-breadcrumbs back-breadcrumbs-single breadcrumbs-courses__single">
+                <div class="back-breadcrumbs">
                     <div class="breadcrumbs-wrap">
-                        <img class="desktop" src="assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs">
-                        <img class="mobile" src="assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs">
+                        <img class="desktop" src="assets/images/breadcrumbs/1.jpg" alt="Breadcrumbs">
+                        <img class="mobile" src="assets/images/breadcrumbs/1.jpg" alt="Breadcrumbs">
                         <div class="breadcrumbs-inner">
                             <div class="container">
-                                <div class="breadcrumbs-text text-left">
-                                    <span class="single-cate">UX Design</span>
-                                    <h1 class="breadcrumbs-title">Creative writing through <br>storytelling</h1>
-                                    <div class="back-nav mt-30">
+                                <div class="breadcrumbs-text">
+                                    <h1 class="breadcrumbs-title">Courses</h1>
+                                    <div class="back-nav">
                                         <ul>
                                             <li><a href="index.html">Home</a></li>
-                                            <li>Coureses</li>
-                                            <li>Creative writing through storytelling</li>
+                                            <li>Courses</li>
                                         </ul>
                                     </div>
                                 </div>
