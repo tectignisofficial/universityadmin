@@ -21,6 +21,15 @@ include("include/config.php");
 
     <!-- Core css -->
     <link rel="stylesheet" href="../assets/css/style.min.css" />
+    <style>
+        .text {
+            display: block;
+            width: 100px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            }
+        </style>
 </head>
 
 <body class="font-muli theme-cyan gradient">
@@ -56,13 +65,25 @@ include("include/config.php");
                     </div>
                 </div>
             </div>
+                         <?php
+                               $prof=mysqli_query($conn,"select * from proffessor");
+                                $count1=mysqli_num_rows($prof);
+                                $contact=mysqli_query($conn,"select * from proffessor");
+                                $count1=mysqli_num_rows($contact);
+                                $student=mysqli_query($conn,"select * from students");
+                                $count3=mysqli_num_rows($student);
+                                $notice=mysqli_query($conn,"select * from notice_board");
+                                $count4=mysqli_num_rows($notice);
+                                $course=mysqli_query($conn,"select * from course");
+                                $count5=mysqli_num_rows($course);
+                            ?>
             <div class="section-body mt-4">
                 <div class="container-fluid">
                     <div class="row clearfix row-deck">
                         <div class="col-6 col-md-4 col-xl-2">
                             <div class="card">
                                 <div class="card-body ribbon">
-                                    <div class="ribbon-box green" data-toggle="tooltip" title="New Professors">5</div>
+                                    <div class="ribbon-box green" data-toggle="tooltip" title="New Professors"><?php echo $count1; ?></div>
                                     <a href="professors.php" class="my_sort_cut text-muted">
                                         <i class="fa fa-black-tie"></i>
                                         <span>Professors</span>
@@ -72,7 +93,8 @@ include("include/config.php");
                         </div>
                         <div class="col-6 col-md-4 col-xl-2">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body ribbon">
+                                <div class="ribbon-box green" data-toggle="tooltip" title="New Professors">5</div>
                                     <a href="app-contact.html" class="my_sort_cut text-muted">
                                         <i class="fa fa-address-book"></i>
                                         <span>Contact</span>
@@ -83,7 +105,7 @@ include("include/config.php");
                         <div class="col-6 col-md-4 col-xl-2">
                             <div class="card">
                                 <div class="card-body ribbon">
-                                    <div class="ribbon-box orange" data-toggle="tooltip" title="New Staff">8</div>
+                                    <div class="ribbon-box orange" data-toggle="tooltip" title="New Staff"><?php echo $count3; ?></div>
                                     <a href="students.php" class="my_sort_cut text-muted">
                                         <i class="fa fa-user-circle-o"></i>
                                         <span>Students</span>
@@ -93,7 +115,8 @@ include("include/config.php");
                         </div>
                         <div class="col-6 col-md-4 col-xl-2">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body ribbon">
+                                <div class="ribbon-box orange" data-toggle="tooltip" title="New Staff"><?php echo $count5; ?></div>
                                     <a href="courses.php" class="my_sort_cut text-muted">
                                         <i class="fa fa-folder"></i>
                                         <span>Courses</span>
@@ -103,7 +126,8 @@ include("include/config.php");
                         </div>
                         <div class="col-6 col-md-4 col-xl-2">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body ribbon">
+                                <div class="ribbon-box orange" data-toggle="tooltip" title="New Staff">8</div>
                                     <a href="library.html" class="my_sort_cut text-muted">
                                         <i class="fa fa-book"></i>
                                         <span>Attendance</span>
@@ -113,7 +137,8 @@ include("include/config.php");
                         </div>
                         <div class="col-6 col-md-4 col-xl-2">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body ribbon">
+                                <div class="ribbon-box orange" data-toggle="tooltip" title="New Staff"><?php echo $count4; ?></div>
                                     <a href="noticeboard.php" class="my_sort_cut text-muted">
                                         <i class="fa fa-bullhorn"></i>
                                         <span>Notice</span>
@@ -134,8 +159,7 @@ include("include/config.php");
                                                         class="fe fe-chevron-up"></i></a>
                                                 <a href="#" class="card-options-fullscreen"
                                                     data-toggle="card-fullscreen"><i class="fe fe-maximize"></i></a>
-                                                <a href="#" class="card-options-remove" data-toggle="card-remove"><i
-                                                        class="fe fe-x"></i></a>
+                                            
                                             </div>
                                         </div>
                                         <div class="card-body">
@@ -242,6 +266,7 @@ include("include/config.php");
                                                         <th>Title</th>
                                                         <th>Description</th>
                                                         <th>Expiry Date</th>
+                                                        <th>View</th>
                                                     </tr>
 
                                                     <?php
@@ -254,14 +279,18 @@ include("include/config.php");
 
 
                                                                 ?>
+                                                               
                                                     <tr>
-
+                                                    <a href="noticeboard.php">
                                                     <td><?php echo $count;?></td>
                                                     <td><?php echo $row['title']?></td>
-                                                    <td><?php echo $row['description']?></td>
+                                                    <td class="text"><?php echo $row['description']?></td>
                                                     <td><?php echo $row['expiryDate']?></td>
-
+                                                    <td> <a href="noticeboard.php"><button type="button"
+                                                        class="btn"><i class="fe fe-eye"></i></button></a></td>
+                                                    </a>
                                                     </tr>
+                                                              
                                                     <?php } ?>
                                                 </tbody>
                                             </table>
@@ -290,14 +319,13 @@ include("include/config.php");
                                 <div class="col-md-12">
                                     <div class="card">
                                         <div class="card-header">
-                                            <h3 class="card-title">New Student List</h3>
+                                            <h3 class="card-title">Student Due</h3>
                                             <div class="card-options">
                                                 <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i
                                                         class="fe fe-chevron-up"></i></a>
                                                 <a href="#" class="card-options-fullscreen"
                                                     data-toggle="card-fullscreen"><i class="fe fe-maximize"></i></a>
-                                                <a href="#" class="card-options-remove" data-toggle="card-remove"><i
-                                                        class="fe fe-x"></i></a>
+                                                
                                             </div>
                                         </div>
                                         <div class="card-body">
