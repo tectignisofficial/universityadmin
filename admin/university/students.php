@@ -291,8 +291,8 @@ if(isset($_GET['delid'])){
                                                     <label class="col-md-3 col-form-label">Profile Picture</label>
                                                     <div class="col-md-9">
                                                         <?php
-                            if(isset($_GET['eid'])){
-                              ?>
+                                                            if(isset($_GET['eid'])){
+                                                            ?>
                                                         <img src="dist/img/images/<?php echo $file; ?>" width="100"
                                                             height="100">
                                                         <input type="hidden" value="<?php echo $file; ?>" name="img">
