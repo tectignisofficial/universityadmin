@@ -181,7 +181,7 @@ body {
   line-height: 1.7;
 }
 img {
-  max-width: 100%;
+  max-width: 103%;
   height: auto !important;
 }
 p {
@@ -218,7 +218,7 @@ h6 {
   font-size: 14px;
 }
 a {
-  color: #2a6df5;
+  color: #8102af;
   transition: all 0.5s ease 0s;
   text-decoration: none !important;
   outline: none !important;
@@ -227,7 +227,7 @@ a:active,
 a:hover {
   text-decoration: none;
   outline: 0 none;
-  color: #2a6df5;
+  color: #8102af;
 }
 ul {
   list-style: outside none none;
@@ -250,7 +250,7 @@ ul {
   position: absolute;
 }
 .primary-color {
-  color: #2a6df5 !important;
+  color: #8102af !important;
 }
 .secondary-color {
   color: #11aba0 !important;
@@ -270,7 +270,7 @@ ul {
 }
 .back__title__section h6 {
   font-size: 16px;
-  color: #2a6df5;
+  color: #8102af;
   font-weight: 500;
   margin: 0 0 15px;
 }
@@ -284,7 +284,7 @@ ul {
   cursor: pointer;
   font-size: 15px;
   color: #ffffff;
-  background: #2a6df5;
+  background: #8102af;
   border: 2px solid #ebebf1;
   text-align: center;
   padding: 0 30px;
@@ -306,7 +306,7 @@ ul {
 .w-btn-2 {
   font-size: 15px;
   padding: 12px 37px;
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
 }
 .w-btn-2:hover {
   border: 2px solid rgba(15, 22, 41, 0.078);
@@ -319,8 +319,8 @@ ul {
   -moz-border-radius: 22px;
   border-radius: 22px;
   color: #ffffff;
-  background: #2a6df5;
-  border: 2px solid #2a6df5;
+  background: #8102af;
+  border: 2px solid #8102af;
 }
 .w-btn-3:hover {
   border: 2px solid rgba(15, 22, 41, 0.078);
@@ -337,9 +337,9 @@ ul {
   border: 2px solid rgba(15, 22, 41, 0.078);
 }
 .w-btn-4:hover {
-  border-color: #2a6df5;
+  border-color: #8102af;
   color: #ffffff;
-  background: #2a6df5;
+  background: #8102af;
 }
 .w-btn-5 {
   padding: 8px 31px;
@@ -351,9 +351,9 @@ ul {
   border: 2px solid rgba(15, 22, 41, 0.078);
 }
 .w-btn-5:hover {
-  border-color: #2a6df5;
+  border-color: #8102af;
   color: #ffffff;
-  background: #2a6df5;
+  background: #8102af;
 }
 .w-btn-8 {
   color: #020334;
@@ -361,9 +361,9 @@ ul {
   padding: 3px 31px;
 }
 .w-btn-8:hover {
-  border-color: #2a6df5;
+  border-color: #8102af;
   color: #ffffff;
-  background: #2a6df5;
+  background: #8102af;
 }
 .w-btn-9 {
   padding: 7px 40px;
@@ -371,8 +371,8 @@ ul {
   -moz-border-radius: 22px;
   border-radius: 22px;
   color: #ffffff;
-  background: #2a6df5;
-  border: 2px solid #2a6df5;
+  background: #8102af;
+  border: 2px solid #8102af;
 }
 .w-btn-9:hover {
   border: 2px solid rgba(15, 22, 41, 0.078);
@@ -383,10 +383,10 @@ ul {
   height: 40px;
   line-height: 36px;
   padding: 0 17px;
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
   border-radius: 6px;
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
 }
 .w-btn-11:hover {
   border: 2px solid #ebebf1;
@@ -436,7 +436,7 @@ ul {
   border: rgba(15, 22, 41, 0.078);
 }
 .w-btn-blue:hover {
-  background-color: #2a6df5;
+  background-color: #8102af;
 }
 .w-btn-blue-2 {
   padding: 10px 20px;
@@ -449,19 +449,19 @@ ul {
   color: #ffffff;
 }
 .back-btn {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
   font-size: 15px;
   font-weight: 600;
   border-radius: 30px;
   display: inline-block;
   padding: 10px 38px;
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
   transition: all 0.5s ease 0s;
 }
 .back-btn:hover {
   background: none;
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-btn-border {
   background: #ffffff;
@@ -475,9 +475,9 @@ ul {
   color: #020334;
 }
 .back-btn-border:hover {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
-  border-color: #2a6df5;
+  border-color: #8102af;
 }
 /*****************************************************
     03. Header Section CSS Here  
@@ -497,7 +497,7 @@ ul {
   color: #091524;
 }
 .back-header .back-menus li a:hover {
-  color: #2a6df5 !important;
+  color: #8102af !important;
 }
 .back-header .back-main-menu {
   position: relative;
@@ -521,7 +521,7 @@ ul {
   color: #020334;
 }
 .back-header.back-header-three .back-login a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-header.back-header-three .back-login svg {
   color: #020334;
@@ -582,7 +582,7 @@ ul {
   color: #020334;
 }
 .back-header.back-inner-header .back-btn:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-header.back-inner-header.back-header .back-menus li a:hover {
   color: #fd4680 !important;
@@ -630,7 +630,7 @@ ul {
   color: #091524;
 }
 .back-header .searchbar-part .back-category-menu li a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-header .searchbar-part .back-category-menu li a i {
   font-size: 22px;
@@ -783,7 +783,7 @@ ul {
 }
 .home-banner-part .back__hero__card .back__thumb .back__price {
   border-radius: 50%;
-  background-color: #2a6df5;
+  background-color: #8102af;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -817,7 +817,7 @@ ul {
   color: #0f1629;
 }
 .home-banner-part .back__hero__card .hero__card-content .back-course-title a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .home-banner-part .back__hero__card .hero__card-content .hero__card-icon {
   justify-content: space-between;
@@ -828,7 +828,7 @@ ul {
   padding: 7px;
   width: 32px;
   height: 32px;
-  color: #2a6df5;
+  color: #8102af;
 }
 .home-banner-part .back__hero__card .hero__card-content .hero__card-icon .hero__card-icon--1 span {
   font-weight: 500;
@@ -1124,7 +1124,7 @@ ul {
 }
 .home-slider-part .slider-content .slider-btn .back-btn-border:hover {
   background: #ffffff;
-  color: #2a6df5;
+  color: #8102af;
 }
 .home-slider-part.home2.owl-carousel .owl-controls {
   position: unset;
@@ -1436,7 +1436,7 @@ ul {
   color: #020334;
 }
 .category__area .category__wrapper:hover a {
-  color: #2a6df5;
+  color: #8102af;
 }
 .category__area .category__wrapper.category__wrapper2 img {
   height: 36px;
@@ -1454,7 +1454,7 @@ ul {
 }
 .category__area .category__inner:hover {
   transform: translateY(-2px);
-  border-color: #2a6df5;
+  border-color: #8102af;
 }
 .back-logo-area.brand__area {
   padding: 0 0 120px;
@@ -1507,21 +1507,21 @@ ul {
   height: 8px;
   width: 100%;
   z-index: 1;
-  border-top: 3px solid #2a6df5;
+  border-top: 3px solid #8102af;
   transition: all 0.5s ease 0s;
   opacity: 0;
 }
 .back_popular_topics .item__inner h3 {
-  font-size: 20px;
+  font-size: 15px !important;
   font-weight: 800;
-  line-height: 26px;
+  line-height: 26px !important;
   margin: 35px 0 15px;
 }
 .back_popular_topics .item__inner h3 a {
   color: #020334;
 }
 .back_popular_topics .item__inner h3 a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back_popular_topics .item__inner p {
   font-size: 15px;
@@ -1541,7 +1541,7 @@ ul {
 .about2__area h6 {
   font-size: 16px;
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
 }
 .about2__area .about__image {
   position: relative;
@@ -1569,7 +1569,7 @@ ul {
 }
 .about2__area ul li {
   float: left;
-  width: 36%;
+  width: 50%;
   font-size: 16px;
   color: #3e3e51;
   font-weight: 700;
@@ -1578,7 +1578,7 @@ ul {
 .about2__area ul li i {
   margin-right: 10px;
   position: relative;
-  background: linear-gradient(120deg, #84bcfa 0%, #2b70fa 23%);
+  background: linear-gradient(120deg, #b154d3 0%, #8102af 23%);
   padding: 8px;
   color: #ffffff;
   border-radius: 50%;
@@ -1587,7 +1587,7 @@ ul {
   margin-left: 5px;
 }
 .about__area-width {
-  max-width: 1170px;
+  max-width: 1030px;
 }
 .about__area .about-shadow {
   border-radius: 10px;
@@ -1673,7 +1673,7 @@ ul {
   height: 17px;
   left: 7px;
   top: 7px;
-  color: #2a6df5;
+  color: #8102af;
 }
 .about4__icon-1--wrapper-2 h4 {
   padding-top: 5px;
@@ -1777,11 +1777,11 @@ ul {
   background: #ffffff;
 }
 .back-course-filter .back-filter button:hover {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
 }
 .back-course-filter .back-filter button.active {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
 }
 .back-course-filter .single-studies {
@@ -1813,7 +1813,7 @@ ul {
   color: #020334;
 }
 .back-course-filter .single-studies .inner-course .case-content .case-title a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-course-filter .single-studies .inner-course .case-content .back__user {
   font-size: 15px;
@@ -1850,7 +1850,7 @@ ul {
   padding: 7px;
   width: 32px;
   height: 32px;
-  color: #2a6df5;
+  color: #8102af;
   margin-right: 14px;
 }
 .back-course-filter .single-studies .inner-course .case-content ul li.back-book svg {
@@ -1859,7 +1859,7 @@ ul {
   padding: 7px;
   width: 32px;
   height: 32px;
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-course-filter .single-studies .inner-course .case-content ul.back-ratings li svg {
   border-radius: 50%;
@@ -1901,7 +1901,7 @@ ul {
   cursor: pointer;
 }
 .back-course-filter.back__course__page_list .shorting__course .all__icons svg.feather-grid {
-  background: #2a6df5;
+  background: #8102af;
   color: #fff;
   border-radius: 4px;
   padding: 6px;
@@ -1956,11 +1956,11 @@ ul {
   font-size: 14px;
 }
 .back-course-filter2 .back-filter button:hover {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
 }
 .back-course-filter2 .back-filter button.active {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
 }
 .back-course-filter2 .single-studies {
@@ -1986,7 +1986,7 @@ ul {
   color: #020334;
 }
 .back-course-filter2 .single-studies .inner-course .case-content .case-title a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-course-filter2 .single-studies .inner-course .case-content .back__user {
   font-size: 15px;
@@ -2186,7 +2186,7 @@ ul {
   padding-left: 10px;
 }
 .event__small-paragraph--link:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .event__video-btn .image-background {
   position: relative;
@@ -2212,7 +2212,7 @@ ul {
   -moz-border-radius: 50%;
   border-radius: 50%;
   background: #ffffff;
-  color: #2a6df5;
+  color: #8102af;
   border-color: #ffffff;
 }
 .event__video-btn {
@@ -2303,7 +2303,7 @@ ul {
 .event2__content-wrapper span {
   font-size: 16px;
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
 }
 .event2__content-wrapper h3 {
   padding-top: 4px;
@@ -2338,7 +2338,7 @@ ul {
 }
 .event2__btn a:hover {
   border: 2px solid rgba(2, 3, 52, 0.078);
-  background-color: #2a6df5;
+  background-color: #8102af;
   color: #ffffff;
 }
 .event2__btn a:hover i {
@@ -2424,7 +2424,7 @@ ul {
 }
 .event2__wrapper-4 .btn a {
   font-size: 15px;
-  background-color: #2a6df5;
+  background-color: #8102af;
   color: #ffffff;
   border: 2px solid rgba(2, 3, 52, 0.078);
   text-align: center;
@@ -2571,13 +2571,14 @@ ul {
 }
 .back-countdown .back-btn-border:hover {
   background: #ffffff;
-  color: #2a6df5;
+  color: #8102af;
 }
 /*****************************************************
     13. Step Section CSS Here 
 ****************************/
 .back-step__area {
   position: relative;
+  background: #eef1f6;
 }
 .back-step__area .step__title-content {
   padding-bottom: 30px;
@@ -2585,7 +2586,7 @@ ul {
 .back-step__area .step__pre-title {
   font-size: 16px;
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-step__area .step__title {
   font-size: 40px;
@@ -2778,7 +2779,7 @@ ul {
 .hero3__content span {
   font-size: 18px;
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
 }
 .hero3__content h1 {
   font-size: 66px;
@@ -2815,7 +2816,7 @@ ul {
 }
 .hero3__content .hero3-btn:hover {
   border: 2px solid rgba(2, 3, 52, 0.078);
-  background-color: #2a6df5;
+  background-color: #8102af;
   color: #ffffff;
 }
 .hero3__image {
@@ -3015,7 +3016,7 @@ ul {
 .category3__content span {
   font-size: 16px;
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
 }
 .category3__content h2 {
   font-size: 40px;
@@ -3050,7 +3051,7 @@ ul {
 }
 .category3__btn a:hover {
   border: 2px solid rgba(2, 3, 52, 0.078);
-  background-color: #2a6df5;
+  background-color: #8102af;
   color: #ffffff;
 }
 .category3__btn a:hover i {
@@ -3100,7 +3101,7 @@ ul {
   color: #020334;
 }
 .category3__wrapper-2--one h4 a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .category3__wrapper-2--one p {
   margin: 0;
@@ -3132,7 +3133,7 @@ ul {
 .instructor__area .instructor__pre-title {
   font-size: 16px;
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
 }
 .instructor__area .instructor__title {
   margin-top: 7px;
@@ -3162,7 +3163,7 @@ ul {
   color: #020334;
 }
 .instructor__area .instructor__content-2 h4 a:hover {
-  color: #2a6df5;
+  color: #8102af;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -3193,7 +3194,7 @@ ul {
   text-align: center;
 }
 .instructor__area .instructor__content-3 ul li a:hover {
-  color: #2a6df5;
+  color: #8102af;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -3413,8 +3414,8 @@ ul {
 }
 .back-clients .client-slider.owl-carousel .owl-nav [class*="owl-"]:hover {
   color: #ffffff;
-  background: #2a6df5;
-  border-color: #2a6df5;
+  background: #8102af;
+  border-color: #8102af;
 }
 /*****************************************************
     18. Newsletter Section CSS Here  
@@ -3541,7 +3542,7 @@ ul {
   z-index: 1;
 }
 .newsletter2__form button:hover {
-  background-color: #2a6df5;
+  background-color: #8102af;
   color: #ffffff;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(8, 0, 42, 0.14);
   -moz-box-shadow: 0px 20px 30px 0px rgba(8, 0, 42, 0.14);
@@ -3673,7 +3674,7 @@ ul {
 }
 .back__course__area .course__item .back-category.cate-4 {
   background-color: rgba(42, 109, 245, 0.06);
-  color: #2a6df5;
+  color: #8102af;
 }
 .back__course__area .course__item .back-category.cate-5 {
   background-color: rgba(28, 167, 12, 0.06);
@@ -3693,7 +3694,7 @@ ul {
   color: #020334;
 }
 .back__course__area .course__item .back-course-title a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back__course__area .course__item .course__thumb img {
   border-radius: 10px 10px 0 0;
@@ -3707,7 +3708,7 @@ ul {
   padding: 7px;
   width: 32px;
   height: 32px;
-  color: #2a6df5;
+  color: #8102af;
 }
 .back__course__area .course__item .course__card-icon .course__card-icon--1 span {
   font-weight: 500;
@@ -3760,7 +3761,7 @@ ul {
   cursor: pointer;
 }
 .back__course__area.back__course__page_grid .shorting__course .all__icons svg.feather-grid {
-  background: #2a6df5;
+  background: #8102af;
   color: #fff;
   border-radius: 4px;
   padding: 6px;
@@ -3800,7 +3801,7 @@ ul {
 .academic__pre-subtitle {
   font-size: 16px;
   font-weight: 500;
-  color: #2a6df5;
+  color: #8102af;
   padding-bottom: 12px;
   margin: 0;
 }
@@ -3836,7 +3837,7 @@ ul {
   border-radius: 50%;
   content: "";
   height: 100%;
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
 }
 .academic__wrapper:hover::before {
   opacity: 1;
@@ -3916,11 +3917,11 @@ ul {
   justify-content: center;
 }
 .academic__round-area-title-1 {
-  padding-top: 37px;
-  font-size: 20px;
+  padding-top: 30px;
+  font-size: 18px;
   font-weight: 800;
   color: #020334;
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 .academic__round-area-title-2 {
   font-size: 16px;
@@ -3940,7 +3941,7 @@ ul {
   padding-left: 5px;
 }
 .academic__round-area-title-3:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 /*****************************************************
     21. Cta Section CSS Here  
@@ -3989,6 +3990,7 @@ ul {
 }
 .count__area {
   margin-top: -66px;
+  margin-bottom: 55px;
 }
 .count__content--title-1 {
   display: inline-block;
@@ -4013,7 +4015,7 @@ ul {
   font-size: 34px;
   font-weight: 400;
   line-height: 28px;
-  color: #2a6df5;
+  color: #8102af;
 }
 .count__content--paragraph {
   font-size: 16px;
@@ -4027,7 +4029,7 @@ ul {
 .back-blog__area .blog__subtitle {
   font-size: 16px;
   font-weight: 500;
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog__area .blog__width {
   max-width: 1200px;
@@ -4071,8 +4073,8 @@ ul {
   top: 8%;
 }
 .back-blog__area .blog__thumb--pre-title:hover {
-  border: 1px solid #2a6df5;
-  background-color: #2a6df5;
+  border: 1px solid #8102af;
+  background-color: #8102af;
   color: #ffffff;
 }
 .back-blog__area .blog__card--content {
@@ -4093,7 +4095,7 @@ ul {
   color: #020334;
 }
 .back-blog__area .blog__card--title:hover a {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog__area .blog__card--link {
   font-size: 15px;
@@ -4102,7 +4104,7 @@ ul {
   color: #020334;
 }
 .back-blog__area .blog__card--link:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog__area .blog__card--link-icon {
   vertical-align: middle;
@@ -4181,7 +4183,7 @@ ul {
 .blog2__area .blog2__wrapper-2 span {
   font-size: 14px;
   font-weight: 500;
-  color: #2a6df5;
+  color: #8102af;
 }
 .blog2__area .blog2__wrapper-2 h3 {
   font-size: 20px;
@@ -4423,7 +4425,7 @@ ul {
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
-  color: #2a6df5;
+  color: #8102af;
 }
 .class__shape img {
   position: absolute;
@@ -4625,7 +4627,7 @@ ul {
   padding: 5px 14px;
   font-size: 13px;
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
   background-color: #e4ecfa;
   line-height: 1;
 }
@@ -4832,7 +4834,7 @@ ul {
   padding: 5px 14px;
   font-size: 13px;
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
   background-color: #e4ecfa;
   line-height: 1;
 }
@@ -5137,7 +5139,7 @@ ul {
   border-radius: 5px;
 }
 .back-sidebar .widget.widget-tags .tags li a:hover {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
 }
 .back-sidebar .widget.get-back-course {
@@ -5193,7 +5195,7 @@ ul {
 }
 .back-sidebar .widget.get-back-course .price__course li i {
   position: relative;
-  background: #2a6df5;
+  background: #8102af;
   padding: 8px;
   color: #ffffff;
   border-radius: 50%;
@@ -5246,8 +5248,8 @@ ul {
   transform: scale(0);
 }
 .back-sidebar ul.recent-category input[type=checkbox]:checked + label:before {
-  background-color: #2a6df5;
-  border-color: #2a6df5;
+  background-color: #8102af;
+  border-color: #8102af;
   color: #fff;
 }
 .back-sidebar ul.recent-category input[type=checkbox]:disabled + label:before {
@@ -5291,12 +5293,12 @@ ul {
   color: #020334;
 }
 .back-sidebar ul.related-courses li .titles h4:hover a {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-sidebar ul.related-courses li .titles span {
   font-weight: 700;
   color: #54565c;
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-sidebar ul.related-courses li:last-child {
   padding-bottom: 0;
@@ -5338,7 +5340,7 @@ ul {
   color: #020334;
 }
 .back-sidebar ul.recent-posts li .titles h4:hover a {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-sidebar ul.recent-posts li .titles span {
   font-weight: 600;
@@ -5385,7 +5387,7 @@ ul {
   color: #020334;
 }
 .back-sidebar ul.recent-comments li .titles h4:hover a {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-sidebar ul.recent-comments li .titles span {
   font-weight: 600;
@@ -5428,10 +5430,10 @@ ul {
   display: inline-block;
 }
 .back-sidebar ul.recent-category li a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-sidebar ul.recent-category li a:hover:before {
-  background: #2a6df5;
+  background: #8102af;
 }
 .back-sidebar ul.recent-category li a span {
   float: right;
@@ -5486,7 +5488,7 @@ ul {
   top: 6px;
 }
 .back-sidebar form button svg:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-sidebar form button:hover {
   opacity: .9;
@@ -5511,8 +5513,8 @@ ul {
   color: #020334;
 }
 .back-pagination li:not(.back-next) a:hover {
-  border: 2px solid #2a6df5;
-  background: #2a6df5;
+  border: 2px solid #8102af;
+  background: #8102af;
   color: #ffffff;
 }
 .back-pagination li {
@@ -5536,7 +5538,7 @@ ul {
   top: 3px;
 }
 .back-pagination li.back-next a:hover {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
 }
 .back-pagination svg {
@@ -5574,8 +5576,8 @@ ul {
   border-radius: 5px;
 }
 .profile-top .follow:hover {
-  background: #2a6df5;
-  border-color: #2a6df5;
+  background: #8102af;
+  border-color: #8102af;
   color: #ffffff;
 }
 .profile-top .user-section {
@@ -5611,7 +5613,7 @@ ul {
   font-size: 13px;
 }
 .profile-top .user-section li.social a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .profile-top h3 {
   font-size: 20px;
@@ -5687,7 +5689,7 @@ ul {
 }
 .back-courses__single-page .course-single-tab .nav.nav-tabs li a.active,
 .back-courses__single-page .course-single-tab .nav.nav-tabs li a:hover {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
 }
 .back-courses__single-page .course-single-tab .nav.nav-tabs li a.active svg,
@@ -5717,7 +5719,7 @@ ul {
   color: #737383;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .back-tag a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .back-tag svg {
   width: 18px;
@@ -5755,7 +5757,7 @@ ul {
   padding: 0;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .back-objectives li i {
-  background: #2a6df5;
+  background: #8102af;
   padding: 6px;
   color: #ffffff;
   border-radius: 50%;
@@ -5950,7 +5952,7 @@ ul {
   line-height: 24px;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .post-author:hover .info .name {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .member-sec {
   border: 2px solid #f0f2f6;
@@ -6012,7 +6014,7 @@ ul {
   border: 2px solid #f0f1f5;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .blog-form form input:focus {
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
   background: none;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .blog-form form textarea {
@@ -6028,11 +6030,11 @@ ul {
   border: 2px solid #f0f1f5;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .blog-form form textarea:focus {
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
   background: none;
 }
 .back-courses__single-page .course-single-tab #back-tab-content .blog-form form button {
-  background: #2a6df5;
+  background: #8102af;
   font-size: 15px;
   color: #ffffff;
   border-radius: 6px;
@@ -6157,7 +6159,7 @@ ul {
   color: #020334;
 }
 .back-blog-page .single-blog .blog-content .blog-title a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog-page .single-blog .blog-content .blog-desc {
   color: #55575c;
@@ -6226,7 +6228,7 @@ ul {
   width: 20px;
   height: 2px;
   z-index: -1;
-  background: #2a6df5;
+  background: #8102af;
 }
 /*****************************************************
     32. Blog Details Page CSS
@@ -6279,7 +6281,7 @@ ul {
   line-height: 33px;
   font-weight: 400;
   z-index: 1;
-  border-left: 3px solid #2a6df5;
+  border-left: 3px solid #8102af;
 }
 .back-blog-page-single .blog-single-inner .blog-content blockquote:before {
   content: "";
@@ -6332,9 +6334,9 @@ ul {
   border-radius: 6px;
 }
 .back-blog-page-single .blog-single-inner .blog-content .blog-tags ul.mata-tags li a:hover {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
-  border-color: #2a6df5;
+  border-color: #8102af;
 }
 .back-blog-page-single .blog-single-inner .blog-content .blog-tags ul.mata-tags li:last-child {
   margin: 0;
@@ -6362,8 +6364,8 @@ ul {
 }
 .back-blog-page-single .blog-single-inner .blog-content .blog-tags .social-links li a:hover {
   color: #ffffff;
-  border-color: #2a6df5;
-  background: #2a6df5;
+  border-color: #8102af;
+  background: #8102af;
 }
 .back-blog-page-single .blog-single-inner .blog-content .blog-tags .social-links li a i.social_linkedin {
   position: relative;
@@ -6410,7 +6412,7 @@ ul {
   line-height: 24px;
 }
 .back-blog-page-single .blog-single-inner .blog-content .post-author:hover .info .name {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog-page-single .blog-single-inner .blog-content .author-comment {
   margin-bottom: 0px;
@@ -6484,10 +6486,10 @@ ul {
   color: #707175;
 }
 .back-blog-page-single .blog-single-inner .blog-content .author-comment ul li .reply a {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog-page-single .blog-single-inner .blog-content .author-comment ul li .reply a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog-page-single .blog-single-inner .blog-content .author-comment ul li .dsc-comments h4 {
   margin: 0 0 12px;
@@ -6508,8 +6510,8 @@ ul {
 }
 .back-blog-page-single .blog-single-inner .blog-content .author-comment ul li .dsc-comments a:hover {
   color: #ffffff;
-  background: #2a6df5;
-  border-color: #2a6df5;
+  background: #8102af;
+  border-color: #8102af;
 }
 .back-blog-page-single .blog-single-inner .blog-content .author-comment ul li .dsc-comments p {
   margin: 12px 0 24px;
@@ -6559,7 +6561,7 @@ ul {
   border: 2px solid #f0f1f5;
 }
 .back-blog-page-single .blog-single-inner .blog-content .blog-form form input:focus {
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
   background: none;
 }
 .back-blog-page-single .blog-single-inner .blog-content .blog-form form textarea {
@@ -6575,11 +6577,11 @@ ul {
   border: 2px solid #f0f1f5;
 }
 .back-blog-page-single .blog-single-inner .blog-content .blog-form form textarea:focus {
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
   background: none;
 }
 .back-blog-page-single .blog-single-inner .blog-content .blog-form form button {
-  background: #2a6df5;
+  background: #8102af;
   font-size: 16px;
   color: #ffffff;
   border-radius: 10px;
@@ -6682,11 +6684,11 @@ ul {
 }
 .back-blog-page-single .single-nav .back-prev a:hover,
 .back-blog-page-single .single-nav .back-next a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog-page-single .single-nav .back-prev a:hover em,
 .back-blog-page-single .single-nav .back-next a:hover em {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog-page-single .single-nav .back-prev {
   position: relative;
@@ -6758,7 +6760,7 @@ ul {
   color: #020334;
 }
 .back-blog-related .container #back-blog-slider li .back-inner .back-blog-content h3:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog-related .container #back-blog-slider li .back-inner .back-blog-content .back-read-more {
   padding-left: 16px;
@@ -6777,7 +6779,7 @@ ul {
   font-size: 19px;
 }
 .back-blog-related .container #back-blog-slider li .back-inner .back-blog-content .back-read-more a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-blog-related .container #back-blog-slider li .back-inner .back-blog-content ul {
   border-top: 1px solid rgba(2, 3, 52, 0.059);
@@ -6828,7 +6830,7 @@ ul {
 }
 .back-login-page .login-left-content p a {
   font-weight: 600;
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-login-page .login-left-content p a:hover {
   color: #55545b;
@@ -6842,7 +6844,7 @@ ul {
 }
 .back-login-page .login-right-form form .social-links li a {
   border-radius: 5px;
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
   width: 50px;
   height: 50px;
@@ -6876,7 +6878,7 @@ ul {
   border-radius: 3px;
 }
 .back-login-page .login-right-form form [type="submit"] {
-  background: #2a6df5;
+  background: #8102af;
   color: #ffffff;
   font-size: 15px;
   font-weight: 600;
@@ -6900,7 +6902,7 @@ ul {
   padding-top: 20px;
 }
 .back-login-page .login-right-form form .signup a {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-login-page .login-right-form form .signup a:hover {
   color: #7a797f;
@@ -6958,7 +6960,7 @@ ul {
   color: #4b4b57;
 }
 .back-contact-page .back-address a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-contact-page .blog-form {
   z-index: 9;
@@ -7001,7 +7003,7 @@ ul {
   border: 2px solid #f0f1f5;
 }
 .back-contact-page .blog-form form input:focus {
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
   background: none;
 }
 .back-contact-page .blog-form form .pdl-5 {
@@ -7020,11 +7022,11 @@ ul {
   border: 2px solid #f0f2f6;
 }
 .back-contact-page .blog-form form textarea:focus {
-  border: 2px solid #2a6df5;
+  border: 2px solid #8102af;
   background: none;
 }
 .back-contact-page .blog-form form button {
-  background: #2a6df5;
+  background: #8102af;
   font-size: 16px;
   color: #ffffff;
   border-radius: 6px;
@@ -7286,10 +7288,10 @@ ul {
   -webkit-transition: all .3s ease;
   -ms-transition: all .3s ease;
   transition: all .3s ease;
-  background-color: #2a6df5;
+  background-color: #8102af;
 }
 .back-footer .footer-top .footer-menu li a:hover {
-  color: #2a6df5;
+  color: #8102af;
   margin-left: 5px;
 }
 .back-footer .footer-top .footer-menu li a:hover:after {
@@ -7391,7 +7393,7 @@ ul {
   color: #74747d;
 }
 .back-footer .copyright .back-copy-left a {
-  color: #2a6df5;
+  color: #651383;
   transition: all .7s ease;
 }
 .back-footer .copyright .back-copy-left a:hover {
@@ -7411,7 +7413,7 @@ ul {
   font-weight: 500;
 }
 .back-footer .copyright .back-copy-right ul li a:hover {
-  color: #2a6df5;
+  color: #8102af;
 }
 .back-footer.back-footer-dark {
   background: #071f51;
@@ -7478,7 +7480,7 @@ ul {
   width: 50px;
   height: 50px;
   border-radius: 6px;
-  background-color: #2a6df5;
+  background-color: #8102af;
   color: #ffffff;
   top: 7px;
   right: 5px;
@@ -7512,8 +7514,8 @@ ul {
 }
 .social-links li a:hover {
   color: #ffffff;
-  background: #2a6df5;
-  border-color: #2a6df5;
+  background: #8102af;
+  border-color: #8102af;
 }
 .social-links li:last-child {
   margin-right: 0;
@@ -7593,7 +7595,7 @@ ul {
   z-index: 99999;
   cursor: pointer;
   display: none;
-  background: #2a6df5;
+  background: #8102af;
 }
 #backscrollUp span {
   display: block;

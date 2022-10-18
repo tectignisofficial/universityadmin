@@ -58,7 +58,7 @@
                         <div class="breadcrumbs-inner">
                             <div class="container">
                                 <div class="breadcrumbs-text">
-                                    <h1 class="breadcrumbs-title">Courses</h1>
+                                    <h1 class="breadcrumbs-title">Diploma Course</h1>
                                     <div class="back-nav">
                                         <ul>
                                             <li><a href="index.html">Home</a></li>

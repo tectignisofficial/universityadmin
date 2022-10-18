@@ -95,9 +95,8 @@
                                         </div>
                                     </div>
                                     <div class="academic__round-area-title text-center">
-                                        <h6 class="academic__round-area-title-1">Undergraduate</h6>
-                                        <p class="academic__round-area-title-2">Online guitar coaching now offers<br>you an
-                                            approachable.</p>
+                                        <h6 class="academic__round-area-title-1">Web Development</h6>
+                                        <p class="academic__round-area-title-2">create and maintain web pages using various techniques, tools, and programming languages.</p>
                                         <a class="academic__round-area-title-3" href="contact.html">Apply Now<i class="arrow_right academic__round-area-title-3--icon"></i></a>
                                     </div>
                                 </div>
@@ -113,9 +112,8 @@
                                         </div>
                                     </div>
                                     <div class="academic__round-area-title text-center">
-                                        <h6 class="academic__round-area-title-1">PhD Program</h6>
-                                        <p class="academic__round-area-title-2">Online guitar coaching now offers<br>you an
-                                            approachable.</p>
+                                        <h6 class="academic__round-area-title-1">Graphic Designing</h6>
+                                        <p class="academic__round-area-title-2">Learn to convey your ideas and messages using animation, graphics, and images.</p>
                                         <a class="academic__round-area-title-3" href="contact.html">Apply Now<i class="arrow_right academic__round-area-title-3--icon"></i></a>
                                     </div>
                                 </div>
@@ -131,9 +129,8 @@
                                         </div>
                                     </div>
                                     <div class="academic__round-area-title text-center">
-                                        <h6 class="academic__round-area-title-1">Postgraduate</h6>
-                                        <p class="academic__round-area-title-2">Online guitar coaching now offers <br> you an
-                                            approachable.</p>
+                                        <h6 class="academic__round-area-title-1">Network Administration</h6>
+                                        <p class="academic__round-area-title-2">Install, configure, and maintain network hardware and software such as routers, firewalls, and switches</p>
                                         <a class="academic__round-area-title-3" href="contact.html">Apply Now<i class="arrow_right academic__round-area-title-3--icon"></i></a>
                                     </div>
                                 </div>
@@ -149,9 +146,8 @@
                                         </div>
                                     </div>
                                     <div class="academic__round-area-title text-center">
-                                        <h6 class="academic__round-area-title-1">Continuing Education</h6>
-                                        <p class="academic__round-area-title-2">Online guitar coaching now offers <br> you an
-                                            approachable.</p>
+                                        <h6 class="academic__round-area-title-1">Digital Marketing</h6>
+                                        <p class="academic__round-area-title-2">Very popular among students belonging to management, advertising, content creation, or analytics background.</p>
                                         <a class="academic__round-area-title-3" href="contact.html">Apply Now<i class="arrow_right academic__round-area-title-3--icon"></i></a>
                                     </div>
                                 </div>
@@ -159,7 +155,32 @@
                         </div>
                     </div>
                 </div>
-                <!--================= Academic Section Start Here =================-->
+                  <!--=================  About Section Start Here ================= -->
+                  <div class="about__area p-relative mb-120">
+                    <div class="container about__area-width">
+                        <div class="row about-shadow">
+                            <div class="col-lg-6">
+                                <div class="about__image">
+                                    <img src="assets/images/about/learners-lesson.jpg" alt="About">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pl-50 md-pl-15">
+                                <div class="about__content">
+                                    <h2 class="about__title">About <br> Tectignis University</h2>
+                                    <p class="about__paragraph">Me old mucker he nicked it barmy happy days super at public<br>
+                                        school David, cheeky so I said excuse my French Eaton wellies <br> owt to do with me bum
+                                        bag.
+                                    </p>
+                                    <img class="about__signature" src="assets/images/about/signature.png" alt="Signature">
+                                    <div class="about__btn md-mb-60">
+                                        <a href="about-us.php" class="back-btn"> University Overview</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--================= About Section End Here ================= -->
 
                 <!--================= Brand Section Start Here =================-->
                 <div class="brand__area back-logo-area">
@@ -207,14 +228,13 @@
                             </div>
                             <div class="col-lg-7 pl-70">
                                 <div class="about__content">
-                                    <h6>Everything In Dlear</h6>
-                                    <h2 class="about__title">Our Impressive Courses <br>Audio, Video, &amp; Live Classess</h2>
+                                    <h2 class="about__title">Our Impressive Courses <br> Live Classess</h2>
                                     <p class="about__paragraph">Spend some time to visit our website or head office <br>and discover our current courses.</p>
                                     <ul>
-                                        <li><i class="icon_check"></i> Best teaching</li>
-                                        <li><i class="icon_check"></i> Flexible</li>
-                                        <li><i class="icon_check"></i> Expert tutor</li>
-                                        <li><i class="icon_check"></i> Affordable</li>
+                                    <li><i class="icon_check"></i> Web Development</li>
+                                        <li><i class="icon_check"></i> Network Administration</li>
+                                        <li><i class="icon_check"></i> Digital Marketing</li>
+                                        <li><i class="icon_check"></i> Graphic Designing</li>
                                     </ul>
                                     <div class="about__btn pt-30">
                                         <a href="coureses-grid.html" class="back-btn-border"> View Courses </a>
@@ -330,93 +350,6 @@
                     </div>
                 </div>
                 <!--================= Counter Section End Here =================-->
-
-                <!--=================  Event Section Start Here ================= -->
-                <div class="event__area p-relative pb-88 pt-96">
-                    <div class="container event__width">
-                        <div class="row">
-                            <div class="col-lg-8 pr-80">
-                                <div class="event__section-wrapper">
-                                    <div class="event__content-wrapper mb-45">
-                                        <h2 class="event__title">Join our <br> Upcoming Events</h2>
-                                        <p class="event__paragraph">Learning is a life-long journey that in fact we never find
-                                            the terminate stop. </p>
-                                    </div>
-                                    <div class="event__card-wrapper">
-                                        <div class="event__card">
-                                            <div class="event__card--date-area">
-                                                <span class="event__card--date-area-1">29</span>
-                                                <span class="event__card--date-area-2">Jun, 2022</span>
-                                            </div>
-                                            <div class="event__card--icon-area">
-                                                <span class="event__card--icon-area-1"><i class="icon" data-feather="clock"></i>
-                                                    11:50 am to
-                                                    05:50 pm</span>
-                                                <span class="event__card--icon-area-2"><i class="icon" data-feather="map-pin"></i> New
-                                                    York</span>
-                                                <p class="event__card--icon-area-3">Global Conference for reducing.</p>
-                                            </div>
-                                            <div class="event__card--btn">
-                                                <a href="contact.html" class="w-btn w-btn-8">Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="event__card-wrapper">
-                                        <div class="event__card">
-                                            <div class="event__card--date-area">
-                                                <span class="event__card--date-area-1">12</span>
-                                                <span class="event__card--date-area-2">Aug, 2022</span>
-                                            </div>
-                                            <div class="event__card--icon-area">
-                                                <span class="event__card--icon-area-1"><i class="icon" data-feather="clock"></i>
-                                                    9:30 am to
-                                                    11:30 pm</span>
-                                                <span class="event__card--icon-area-2"><i class="icon" data-feather="map-pin"></i> New
-                                                    York</span>
-                                                <p class="event__card--icon-area-3">Street Performance: Call for Art.</p>
-                                            </div>
-                                            <div class="event__card--btn">
-                                                <a href="contact.html" class="w-btn w-btn-8">Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="event__card-wrapper">
-                                        <div class="event__card">
-                                            <div class="event__card--date-area">
-                                                <span class="event__card--date-area-1">24</span>
-                                                <span class="event__card--date-area-2">May, 2022</span>
-                                            </div>
-                                            <div class="event__card--icon-area">
-                                                <span class="event__card--icon-area-1"><i class="icon" data-feather="clock"></i>
-                                                    4:50 am to
-                                                    07:50 pm</span>
-                                                <span class="event__card--icon-area-2"><i class="icon" data-feather="map-pin"></i> New
-                                                    York</span>
-                                                <p class="event__card--icon-area-3">Global Conference for reducing.</p>
-                                            </div>
-                                            <div class="event__card--btn">
-                                                <a href="contact.html" class="w-btn w-btn-8">Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="event__small-paragraph">Lorem ipsum dolor sit amet, consectetur adall.</p>
-                                    <a class="event__small-paragraph--link" href="#"> View all Event <i class="arrow_right event__small-paragraph--link-icon"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="event__video-btn text-end">
-                                    <img class="m-img image-background" src="assets/images/event/bannner.jpg" alt="Video Image">
-                                    <div class="event__video-btn--play">
-                                    <a href="../../watch.html?v=e5Hc2B50Z7c" class="event__video-btn--play-btn popup-videos">
-                                        <i class="arrow_triangle-right"></i>
-                                    </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--=================  Event Section End Here ================= -->
 
             </div>
         </div>

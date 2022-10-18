@@ -27,11 +27,11 @@
 
                             <li> <a href="about-us.php">About us</a></li>
 
-                            <li> <a href="coureses-single.php">Courses</a>
+                            <li> <a href="courses.php">Courses</a>
                                 <ul>
-                                    <li><a href="certificatecourse.php">Certificate Course</a></li>
-                                    <li><a href="diplomacourse.php">Diploma Course</a></li>
                                     <li><a href="mastercourse.php">Master Course</a></li>
+                                    <li><a href="diplomacourse.php">Diploma Course</a></li>
+                                    <li><a href="certificatecourse.php">Certificate Course</a></li>
                                 </ul>
                             </li>
                             <li> <a href="#">Franchise</a></li>

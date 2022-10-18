@@ -113,7 +113,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper category__wrapper2 mb-15">
                                                 <img src="assets/images/category/4.svg" alt="business icon">
@@ -127,9 +127,9 @@
                                                 <img src="assets/images/category/3.svg" alt="tree icon">
                                                 <h4><a href="">JS</a></h4>
                                             </div>
-                                        </div>
+                                        </div
                                     </div> -->
-                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
                                                 <img src="assets/images/category/4.svg" alt="academic icon">
@@ -159,7 +159,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
                                                 <img src="assets/images/category/4.svg" alt="Language icon">
@@ -175,7 +175,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                                <div class="row">
+                                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
                                                 <img src="assets/images/category/4.svg" alt="Cooking icon">
@@ -183,13 +190,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12">
-                                <div class="row">
-                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                                         <div class="category__inner">
                                             <div class="category__wrapper mb-15">
                                                 <img src="assets/images/category/4.svg" alt="Dance icon">
@@ -197,7 +198,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6">
                                         <div class="category__inner mb-15">
                                             <div class="category__wrapper">
                                                 <img src="assets/images/category/4.svg" alt="Theater icon">
@@ -205,7 +206,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12">
+                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12">
                                         <div class="category__inner mb-15">
                                             <div class="category__wrapper">
                                                 <img src="assets/images/category/4.svg" alt="Leaf icon">
@@ -266,13 +267,13 @@
                             </div>
                             <div class="col-lg-7 pl-70 sm-pl-15">
                                 <div class="about__content">
-                                    <h2 class="about__title">Our Impressive Courses <br>Audio, Video, & Live Classess</h2>
+                                    <h2 class="about__title">Our Impressive Courses <br> Live Classess</h2>
                                     <p class="about__paragraph">Spend some time to visit our website or head office <br>and discover our current courses.</p>
                                     <ul>
-                                        <li><i class="icon_check"></i> Best teaching</li>
-                                        <li><i class="icon_check"></i> Flexible</li>
-                                        <li><i class="icon_check"></i> Expert tutor</li>
-                                        <li><i class="icon_check"></i> Affordable</li>
+                                        <li><i class="icon_check"></i> Web Development</li>
+                                        <li><i class="icon_check"></i> Network Administration</li>
+                                        <li><i class="icon_check"></i> Digital Marketing</li>
+                                        <li><i class="icon_check"></i> Graphic Designing</li>
                                     </ul>
                                     <div class="about__btn pt-30">
                                         <a href="about.html" class="back-btn-border"> University Overview </a>
@@ -283,116 +284,6 @@
                     </div>
                 </div>
                 <!--================= About Section End Here ================= -->
-
-                <!--================= Course Filter Section Start Here =================-->
-                <div class="back-course-filter pb-100 pt-120">
-                    <div class="container">                                                    
-                        <div class="row d-flex align-items-end">
-                            <div class="col-lg-5">
-                                <div class="back__title__section text-left">
-                                    <h6 class="back__subtitle">Online Course</h6>
-                                    <h2 class="back__tittle"> Find The Right <br> Online Course for you </h2>
-                                </div>
-                            </div>
-                            <div class="col-lg-7 text-right">
-                                <div class="back-filter">
-                                    <button class="active" data-filter="*">See All</button>
-                                    <button data-filter=".filter1">Trending</button>
-                                    <button data-filter=".filter2">Featured</button>
-                                    <button data-filter=".filter3">Popularity</button>
-                                </div>
-                            </div>
-                        </div>                       
-
-                        <div class="row back-grid">                            
-                            <div class="single-studies col-lg-6 grid-item filter2 filter1">
-                                <div class="inner-course">
-                                    <div class="case-img">
-                                        <img src="assets/images/course-filter/1.jpg" alt="Course Image">
-                                    </div>
-                                    <div class="case-content">
-                                        <ul class="meta-course">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 500k +</li>
-                                            <li class="back-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg> Lessones</li>
-                                        </ul>
-                                        <h4 class="case-title"> <a href="coureses-single.html">Learning to Write as <br>a professional.</a></h4>
-                                        <div class="back__user">
-                                            <img src="assets/images/course/small-image/1.png" alt="user"> Eleanor Fant
-                                        </div>
-                                        <ul class="back-ratings">
-                                            <li>$34.00</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> 4.9</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="single-studies col-lg-6 grid-item filter3 filter1">
-                                <div class="inner-course">
-                                    <div class="case-img">
-                                        <img src="assets/images/course-filter/2.jpg" alt="Course Image">
-                                    </div>
-                                    <div class="case-content">
-                                        <ul class="meta-course">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 500k +</li>
-                                            <li class="back-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg> Lessones</li>
-                                        </ul>
-                                        <h4 class="case-title"> <a href="coureses-single.html">Customer-centric Info <br> Tech Strategies.</a></h4>
-                                        <div class="back__user">
-                                            <img src="assets/images/course/small-image/2.png" alt="user"> Hans Down
-                                        </div>
-                                        <ul class="back-ratings">
-                                            <li>$34.00</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> 4.9</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div class="single-studies col-lg-6 grid-item filter3 filter2">
-                                <div class="inner-course">
-                                    <div class="case-img">
-                                        <img src="assets/images/course-filter/3.jpg" alt="Course Image">
-                                    </div>
-                                    <div class="case-content">
-                                        <ul class="meta-course">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 500k +</li>
-                                            <li class="back-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg> Lessones</li>
-                                        </ul>
-                                        <h4 class="case-title"> <a href="coureses-single.html">Open Programming <br> Courses for Everyone.</a></h4>
-                                        <div class="back__user">
-                                            <img src="assets/images/course/small-image/2.png" alt="user"> Fig Nelson
-                                        </div>
-                                        <ul class="back-ratings">
-                                            <li>$34.00</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> 4.9</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-studies col-lg-6 grid-item filter2 filter1">
-                                <div class="inner-course">
-                                    <div class="case-img">
-                                        <img src="assets/images/course-filter/4.jpg" alt="Course Image">
-                                    </div>
-                                    <div class="case-content">
-                                        <ul class="meta-course">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 500k +</li>
-                                            <li class="back-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg> Lessones</li>
-                                        </ul>
-                                        <h4 class="case-title"> <a href="coureses-single.html">Academic Listening and <br> Note-taking</a></h4>
-                                        <div class="back__user">
-                                            <img src="assets/images/course/small-image/4.png" alt="user"> Eric Widget
-                                        </div>
-                                        <ul class="back-ratings">
-                                            <li>$45.00</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> 4.9</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>                                                  
-                        </div>
-                    </div>
-                </div>
-                <!--================= Course Filter Section End Here =================--> 
 
                 <!--================= Step Section Start Here =================-->
                 <div class="back-step__area step__area p-relative pt-120 pb-30">
@@ -465,182 +356,7 @@
                 </div>
                 <!--================= Step Section End Here =================-->
 
-                <!--================= Instructor Section Start Here =================-->
-                <div class="instructor__area pt-115 pb-85 text-center">
-                    <div class="container instructor__width">
-                        <div class="row">
-                            <div class="col-xxl-7 offset-xxl-2 col-xl-7 offset-xl-2 col-lg-7 offset-lg-2">
-                                <div class="instructor__title-content text-center pb-20">
-                                    <span class="instructor__pre-title">Course Instructors</span>
-                                    <h2 class="instructor__title">Meet our class Instructors</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="instructor__content">
-                                    <div class="instructor__content-1">
-                                        <img src="assets/images/instructor/01.jpg" alt="course instructor picture">
-                                    </div>
-                                    <div class="instructor__content-2">
-                                        <h4>
-                                            <a href="profile.html">Eleanor Fant</a>
-                                        </h4>
-                                        <p>Professor</p>
-                                    </div>
-                                    <div class="instructor__content-3">
-                                        <ul>                                            
-                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="instructor__content">
-                                    <div class="instructor__content-1">
-                                        <img src="assets/images/instructor/02.jpg" alt="course instructor picture">
-                                    </div>
-                                    <div class="instructor__content-2">
-                                        <h4>
-                                            <a href="profile.html">Indigo Violet</a>
-                                        </h4>
-                                        <p>Special Assistant</p>
-                                    </div>
-                                    <div class="instructor__content-3">
-                                        <ul>                                            
-                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="instructor__content">
-                                    <div class="instructor__content-1">
-                                        <img src="assets/images/instructor/03.jpg" alt="course instructor picture">
-                                    </div>
-                                    <div class="instructor__content-2">
-                                        <h4>
-                                            <a href="profile.html">Jason Response</a>
-                                        </h4>
-                                        <p>Education Assistant</p>
-                                    </div>
-                                    <div class="instructor__content-3">
-                                        <ul>                                            
-                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="instructor__content">
-                                    <div class="instructor__content-1">
-                                        <img src="assets/images/instructor/04.jpg" alt="course instructor picture">
-                                    </div>
-                                    <div class="instructor__content-2">
-                                        <h4>
-                                            <a href="profile.html">Jonquil Von</a>
-                                        </h4>
-                                        <p>Teaching Assistant</p>
-                                    </div>
-                                    <div class="instructor__content-3">
-                                        <ul>                                            
-                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="instructor__content">
-                                    <div class="instructor__content-1">
-                                        <img src="assets/images/instructor/05.jpg" alt="course instructor picture">
-                                    </div>
-                                    <div class="instructor__content-2">
-                                        <h4>
-                                            <a href="profile.html">Piff Jenkins</a>
-                                        </h4>
-                                        <p>Teacher</p>
-                                    </div>
-                                    <div class="instructor__content-3">
-                                        <ul>                                            
-                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="instructor__content">
-                                    <div class="instructor__content-1">
-                                        <img src="assets/images/instructor/06.jpg" alt="course instructor picture">
-                                    </div>
-                                    <div class="instructor__content-2">
-                                        <h4>
-                                            <a href="profile.html">Brian Cumin</a>
-                                        </h4>
-                                        <p>Lead Teacher</p>
-                                    </div>
-                                    <div class="instructor__content-3">
-                                        <ul>                                            
-                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="instructor__content">
-                                    <div class="instructor__content-1">
-                                        <img src="assets/images/instructor/07.jpg" alt="course instructor picture">
-                                    </div>
-                                    <div class="instructor__content-2">
-                                        <h4>
-                                            <a href="profile.html">Hanson Deck</a>
-                                        </h4>
-                                        <p>Teacher</p>
-                                    </div>
-                                    <div class="instructor__content-3">
-                                        <ul>                                            
-                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                                <div class="instructor__content">
-                                    <div class="instructor__content-1">
-                                        <img src="assets/images/instructor/08.jpg" alt="course instructor picture">
-                                    </div>
-                                    <div class="instructor__content-2">
-                                        <h4>
-                                            <a href="profile.html">Alan Fresco</a>
-                                        </h4>
-                                        <p>Teacher</p>
-                                    </div>
-                                    <div class="instructor__content-3">
-                                        <ul>                                            
-                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Instructor Section End Here =================-->
+        
                 
                 <!--================= Clients Section Start Here =================--> 
                 <div class="back-clients pt-120 pb-120">
@@ -659,8 +375,8 @@
                                         </div>
                                         <span class="client-author"><img src="assets/images/testemonial/01.jpg" alt="Testimonials"> </span>
                                     </div>
-                                    <span class="client-title">Justin Case <em> Student</em></span>
-                                    <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
+                                    <span class="client-title">Divyani <em> Student</em></span>
+                                    <div class="client-content">My life at Tectignis university made me stronger and took me a step ahead for being an independent women.</div>                                
                                 </div>
                                 <div class="single-client">
                                     <div class="client-bottom">
@@ -670,8 +386,8 @@
                                         </div>
                                         <span class="client-author"><img src="assets/images/testemonial/02.jpg" alt="Testimonials"> </span>           
                                     </div>
-                                    <span class="client-title">Gunther Beard <em> Student </em></span>
-                                    <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
+                                    <span class="client-title">Aniket <em> Student </em></span>
+                                    <div class="client-content">Great experience from Tectignis. You get a lot of opportunities. Work hard to get it. Be prepared for everything.</div>                                
                                 </div>
                                 <div class="single-client">
                                     <div class="client-bottom">
@@ -681,7 +397,7 @@
                                         </div>
                                         <span class="client-author"><img src="assets/images/testemonial/01.jpg" alt="Testimonials"> </span>
                                     </div>
-                                    <span class="client-title">Justin Case <em> Student </em></span>
+                                    <span class="client-title">Monika <em> Student </em></span>
                                     <div class="client-content">The Class are really well structured and well explained, Icome out at the end with actual new Knowledge.!</div>                                
                                 </div>
                             </div>
@@ -692,6 +408,109 @@
                     </div>
                 </div>             
                 <!--================= Clients Section End Here =================--> 
+
+                        <!--================= Instructor Section Start Here =================-->
+                        <div class="instructor__area pt-115 pb-85 text-center">
+                    <div class="container instructor__width">
+                        <div class="row">
+                            <div class="col-xxl-7 offset-xxl-2 col-xl-7 offset-xl-2 col-lg-7 offset-lg-2">
+                                <div class="instructor__title-content text-center pb-20">
+                                    <span class="instructor__pre-title">Course Instructors</span>
+                                    <h2 class="instructor__title">Meet our class Instructors</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                                <div class="instructor__content">
+                                    <div class="instructor__content-1">
+                                        <img src="assets/images/instructor/04.jpg" alt="course instructor picture">
+                                    </div>
+                                    <div class="instructor__content-2">
+                                        <h4>
+                                            <a href="profile.html">Sarvesh Hiwale</a>
+                                        </h4>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                                <div class="instructor__content">
+                                    <div class="instructor__content-1">
+                                        <img src="assets/images/instructor/12.jpg" alt="course instructor picture">
+                                    </div>
+                                    <div class="instructor__content-2">
+                                        <h4>
+                                            <a href="profile.html">Vedant Naidu</a>
+                                        </h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                                <div class="instructor__content">
+                                    <div class="instructor__content-1">
+                                        <img src="assets/images/instructor/05.jpg" alt="course instructor picture">
+                                    </div>
+                                    <div class="instructor__content-2">
+                                        <h4>
+                                            <a href="profile.html">Govind Bavkar</a>
+                                        </h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                                <div class="instructor__content">
+                                    <div class="instructor__content-1">
+                                        <img src="assets/images/instructor/03.jpg" alt="course instructor picture">
+                                    </div>
+                                    <div class="instructor__content-2">
+                                        <h4>
+                                            <a href="profile.html">Monika Gore</a>
+                                        </h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                                <div class="instructor__content">
+                                    <div class="instructor__content-1">
+                                        <img src="assets/images/instructor/07.jpg" alt="course instructor picture">
+                                    </div>
+                                    <div class="instructor__content-2">
+                                        <h4>
+                                            <a href="profile.html">Aniket Nangare</a>
+                                        </h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                </div>
+                            </div>                          
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                                <div class="instructor__content">
+                                    <div class="instructor__content-1">
+                                        <img src="assets/images/instructor/02.jpg" alt="course instructor picture">
+                                    </div>
+                                    <div class="instructor__content-2">
+                                        <h4>
+                                            <a href="profile.html">Mahesh Niwate</a>
+                                        </h4>
+                                        <p>Instructor</p>
+                                    </div>
+                                    <!-- <div class="instructor__content-3">
+                                        <ul>                                            
+                                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                                            <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
+                                        </ul>
+                                    </div> -->
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--================= Instructor Section End Here =================-->
 
 
             </div>

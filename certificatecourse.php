@@ -3,7 +3,7 @@
     <head>
         <!--================= Meta tag =================-->
         <meta charset="utf-8">
-        <title>Home | Dlear - Education HTML Template</title>
+        <title>Coureses Single | Dlear - Education HTML Template</title>
         <meta name="description" content="">
         <!--================= Responsive Tag =================-->
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,20 +11,20 @@
         <!--================= Favicon =================-->
         <link rel="apple-touch-icon" href="assets/images/fav.png">
         <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">        
-        <!--================= Bootstrap V5 css =================-->
+        <!--================= Bootstrap v5 css =================-->
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
         <!--================= Back Menus css =================-->
         <link rel="stylesheet" type="text/css" href="assets/css/back-menus.css">               
         <!--================= Animate css =================-->
         <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-        <!--================= Owl Carousel css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+        <!--================= owl carousel css =================-->
+        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">        
         <!--================= Elegant icon css  =================-->
         <link rel="stylesheet" type="text/css" href="assets/fonts/elegant-icon.css">
         <!--================= Magnific Popup css =================-->
         <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
         <!--================= Back Animations css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/back-animations.css">  
+        <link rel="stylesheet" type="text/css" href="assets/css/back-animations.css"> 
         <!--================= style css =================-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <!--================= Spacing css =================-->
@@ -41,761 +41,447 @@
         <!--================= Preloader Section End Here =================-->
 
         <!--================= Header Section Start Here =================-->
-      <?php
-      include("include/header.php");
-      ?>
+       <?php
+       include("include/header.php")
+       ?>
         <!--================= Header Section End Here =================-->
 
-        <!--================= Back Wrapper Start Here =================-->
+        <!--================= back wrapper Start Here =================-->
         <div class="back-wrapper">
             <div class="back-wrapper-inner">
-                
-                <!--================= Banner Section Start Here =================-->
-                <div class="home-banner-part">
-                    <div class="banner-img">
-                        <img class="desktop" src="assets/images/banner/slide1.jpg" alt="Banner Image">
-                        <img class="back__shape__1" src="assets/images/banner/01.png" alt="Shape Image">
-                        <img class="back__shape__2" src="assets/images/banner/02.png" alt="Shape Image">
-                        <img class="back__shape__3" src="assets/images/banner/03.png" alt="Shape Image">
-                        <img class="back__shape__4" src="assets/images/banner/04.png" alt="Shape Image">
-                        <img class="back__shape__5" src="assets/images/banner/05.png" alt="Shape Image">
-                        <div class="back__hero__card">
-                            <div class="back__thumb">
-                                <a href="#"><img src="assets/images/banner/1.jpg" alt="image"></a>
-                                <span class="back__price">$26</span>
-                            </div>
-                            <div class="hero__card-content">
-                                <a class="back-category">Audio & Music</a>
-                                <h3 class="back-course-title"><a href="coureses-single.html">Learning to write as a Professional.</a></h3>
-                                <div class="hero__card-icon d-flex align-items-center">
-                                    <div class="hero__card-icon--1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                        <span>500k+</span>
-                                    </div>
-                                    <div class="hero__card-icon--2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                        <span>4.9</span>
-                                    </div>
-                                    <div class="back__user">
-                                        <img src="assets/images/banner/thumb.jpg" alt="user">
+
+                <!--================= Back Breadcrumbs Section Start Here =================-->
+                <div class="back-breadcrumbs">
+                    <div class="breadcrumbs-wrap">
+                        <img class="desktop" src="assets/images/breadcrumbs/1.jpg" alt="Breadcrumbs">
+                        <img class="mobile" src="assets/images/breadcrumbs/1.jpg" alt="Breadcrumbs">
+                        <div class="breadcrumbs-inner">
+                            <div class="container">
+                                <div class="breadcrumbs-text">
+                                    <h1 class="breadcrumbs-title">Certificate Course</h1>
+                                    <div class="back-nav">
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li>Courses</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>                
+                </div>
+                <!--================= Back Breadcrumbs Section End Here =================-->
+
+                <!--================= Course Single Section Start Here =================-->
+                <div class="back__course__area back__course__page_grid back-courses__single-page pt-120 pb-120">
                     <div class="container">
-                        <div class="banner-content">
-                            <div class="back-sec-title">
-                                <h1 class="banner-title">Certificate Courses<br> </h1>
-                                <p class="banner-desc">Boosts your Career by excellent skills.<br> We offer you a brighter future.</p>
-                            </div>
-                            <div class="banner-btn pt-15">
-                                <a href="coureses-grid.html" class="back-btn">Discover More Course</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Banner Section End Here =================-->
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <ul class="user-section">
+                                    <li class="user">
+                                        <span><img src="assets/images/course-single/user.jpg" alt="user"></span>
+                                        <span>Teacher<em> Elon Gated</em></span>
+                                    </li>
+                                    <li>Last Update: <em>July 24, 2022</em></li>
+                                    <li>Review: 
+                                        <em class="back-ratings"> 
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i>
+                                            <i class="icon_star"></i> 4.5
+                                        </em> 
+                                    </li>
+                                </ul>
+                                <div class="image-banner"><img src="assets/images/course-single/1.jpg" alt="user"></div>
+                                <div class="course-single-tab">
+                                    <ul class="nav nav-tabs" id="back-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" id="discriptions" data-bs-toggle="tab" href="#discription" role="tab" aria-controls="discription" aria-selected="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Discription</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="curriculums" data-bs-toggle="tab" href="#curriculum" role="tab" aria-controls="curriculum" aria-selected="false"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg> Curriculum</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="reviewss" data-bs-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> Reviews</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="members" data-bs-toggle="tab" href="#member" role="tab" aria-controls="member" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> Member</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="back-tab-content">
+                                        <div class="tab-pane fade show active" id="discription" role="tabpanel" aria-labelledby="discription">
+                                            <h3>About This Course</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat nis Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde om nis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo in ve ntore veritatis et qua architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neu e porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur ad ipisci velit, sed quia non numquame senius modi tempora incidunt ut labore et dolore magnam.</p>
+                                            <div class="back-tag"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg> <a href="#">big data,</a> <a href="#">data,</a> <a href="#">data analysis,</a> <a href="#">data modeling</a></div>
+                                            <ul class="back-objectives">
+                                                <li><h3>Learning Objectives</h3></li>
+                                                <li><i class="icon_check"></i> Find a new position involving <br> Data modeling.</li>
+                                                <li><i class="icon_check"></i> Expanded responsibilities as part of <br>an existing role.</li>
+                                                <li><i class="icon_check"></i> Ready to begin working on real-world <br> data modeling projects.</li>
+                                            </ul>
+                                            <ul class="back-other-instructors">
+                                                <li><h3>Other Instructors</h3></li>
+                                                <li>
+                                                    <span><img src="assets/images/course-single/user.jpg" alt="user"></span>
+                                                    <span>Eleanor Fant <em>Instructor</em></span>
+                                                </li>
+                                                <li>
+                                                    <span><img src="assets/images/course-single/user2.jpg" alt="user"></span>
+                                                    <span>Lauren Stamps <em>Teacher</em></span>
+                                                </li>
+                                                <li>
+                                                    <span><img src="assets/images/course-single/user3.jpg" alt="user"></span>
+                                                    <span>Jonquil Von <em>Associate</em></span>
+                                                </li>
+                                            </ul>
+                                            <ul class="social-links">
+                                                <li><h4>Follow us</h4></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade" id="curriculum" role="tabpanel" aria-labelledby="curriculum">
+                                            <h3>Course Curriculum</h3>
+                                            <p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
 
-                <!--=================  Popular Topics Section Start Here ================= -->
-                <div class="back_popular_topics pt-120 pb-120">
-                    <div class="container"> 
-                        <div class="back__title__section text-center">
-                            <h6 class="back__subtitle">Browse Categories</h6>
-                            <h2 class="back__tittle"> Popular Topics to Learn</h2>
-                        </div>                       
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/icon/icon.png" alt="Icon image">
-                                    </div>
-                                    <div class="back-content">
-                                        <h3 class="back-title"><a href="coureses-grid.html">Environmental <br> Sciences</a></h3>
-                                        <p>5 Courses</p>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/icon/2.png" alt="Icon image">
-                                    </div>
-                                    <div class="back-content">
-                                        <h3 class="back-title"><a href="coureses-grid.html">Data Science & <br> Analytics</a></h3>
-                                        <p>8 Courses</p>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/icon/3.png" alt="Icon image">
-                                    </div>
-                                    <div class="back-content">
-                                        <h3 class="back-title"><a href="coureses-grid.html">Business <br> & Management</a></h3>
-                                        <p>14 Courses</p>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/icon/4.png" alt="Icon image">
-                                    </div>
-                                    <div class="back-content">
-                                        <h3 class="back-title"><a href="coureses-grid.html">Learning <br> Management</a></h3>
-                                        <p>7 Courses</p>
-                                    </div>                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center pt-20">
-                        <a href="coureses-grid.html" class="back-btn-border"> Browse more Courses</a>
-                    </div>
-                </div>
-                <!--=================  Popular Topics Section End Here ================= -->
+                                            <div class="single-week">
+                                                <ul class="week__top">
+                                                    <li>Week 1</li>
+                                                    <li>0/4</li>
+                                                </ul>
+                                                <h3>Beginners level</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-                <!--=================  About Section Start Here ================= -->
-                <div class="about__area p-relative mb-120">
-                    <div class="container about__area-width">
-                        <div class="row about-shadow">
-                            <div class="col-lg-6">
-                                <div class="about__image">
-                                    <img src="assets/images/about/learners-lesson.jpg" alt="About">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 pl-50 md-pl-15">
-                                <div class="about__content">
-                                    <h2 class="about__title">About <br> Dlear University</h2>
-                                    <p class="about__paragraph">Me old mucker he nicked it barmy happy days super at public<br>
-                                        school David, cheeky so I said excuse my French Eaton wellies <br> owt to do with me bum
-                                        bag.
-                                    </p>
-                                    <img class="about__signature" src="assets/images/about/signature.png" alt="Signature">
-                                    <div class="about__btn md-mb-60">
-                                        <a href="about.html" class="back-btn"> University Overview</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= About Section End Here ================= -->
+                                                <h3>2 Videos,1 Audio,1 Reading</h3>
+                                                <ul class="course__title">
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-video"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg> <b>Video:</b> Greetings and Introductions <em class="questions">2 questions</em> <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12 minutes</em></li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-video"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg> <b>Video:</b> Introducing Elizabeth Gerber <em> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 26 minutes</em></li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-headphones"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg> <b>Audio:</b> Michael Chapman of IDEO on Interviewing <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 14 minutes</em></li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> <b>Reading:</b> Slides <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 19 minutes</em></li>
+                                                </ul>
+                                            </div>
 
-                <!--================= Course Section Start Here =================-->
-                <div class="back__course__area pt-120 pb-90">
-                    <img class="back__shape__1" src="assets/images/course/shape/1.png" alt="Shape Image">
-                    <img class="back__shape__2" src="assets/images/course/shape/02.png" alt="Shape Image">
-                    <div class="container">
-                        <div class="back__title__section text-center">
-                            <h6 class="back__subtitle">Featured Courses</h6>
-                            <h2 class="back__tittle"> Choose Unlimited Options </h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="course__item mb-30">
-                                    <div class="course__thumb">
-                                        <a href="coureses-single.html"><img src="assets/images/course/1.jpg" alt="image"></a>
-                                    </div>
-                                    <div class="course__inner">
-                                        <span class="back-category cate-1">UX Design</span>
-                                        <h3 class="back-course-title"><a href="coureses-single.html">Become a product <br> Manager learn the skills & job.</a></h3>
-                                        <div class="course__card-icon d-flex align-items-center">
-                                            <div class="course__card-icon--1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>500k+</span>
-                                            </div>
-                                            <div class="course__card-icon--2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                                <span>4.9</span>
-                                            </div>
-                                            <div class="back__user">
-                                                $76.00 <img src="assets/images/course/small-image/1.png" alt="user">
-                                            </div>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="course__item mb-30">
-                                    <div class="course__thumb">
-                                        <a href="coureses-single.html"><img src="assets/images/course/2.jpg" alt="image"></a>
-                                    </div>
-                                    <div class="course__inner">
-                                        <span class="back-category cate-2">Development</span>
-                                        <h3 class="back-course-title"><a href="coureses-single.html">Open Programming <br>Courses for Everyone Python.</a></h3>
-                                        <div class="course__card-icon d-flex align-items-center">
-                                            <div class="course__card-icon--1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>500k+</span>
-                                            </div>
-                                            <div class="course__card-icon--2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                                <span>4.9</span>
-                                            </div>
-                                            <div class="back__user">
-                                                $57.00 <img src="assets/images/course/small-image/2.png" alt="user">
-                                            </div>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="course__item mb-30">
-                                    <div class="course__thumb">
-                                        <a href="coureses-single.html"><img src="assets/images/course/3.jpg" alt="image"></a>
-                                    </div>
-                                    <div class="course__inner">
-                                        <span class="back-category cate-3">Audio & Music</span>
-                                        <h3 class="back-course-title"><a href="coureses-single.html">Learning to write as a <br>Professional.</a></h3>
-                                        <div class="course__card-icon d-flex align-items-center">
-                                            <div class="course__card-icon--1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>500k+</span>
-                                            </div>
-                                            <div class="course__card-icon--2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                                <span>4.9</span>
-                                            </div>
-                                            <div class="back__user">
-                                                Free <img src="assets/images/course/small-image/3.png" alt="user">
-                                            </div>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="course__item mb-30">
-                                    <div class="course__thumb">
-                                        <a href="coureses-single.html"><img src="assets/images/course/4.jpg" alt="image"></a>
-                                    </div>
-                                    <div class="course__inner">
-                                        <span class="back-category cate-4">Marketing</span>
-                                        <h3 class="back-course-title"><a href="coureses-single.html">Academic Listening and <br> Note taking.</a></h3>
-                                        <div class="course__card-icon d-flex align-items-center">
-                                            <div class="course__card-icon--1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>500k+</span>
-                                            </div>
-                                            <div class="course__card-icon--2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                                <span>4.9</span>
-                                            </div>
-                                            <div class="back__user">
-                                                $42.00 <img src="assets/images/course/small-image/4.png" alt="user">
-                                            </div>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="course__item mb-30">
-                                    <div class="course__thumb">
-                                        <a href="coureses-single.html"><img src="assets/images/course/5.jpg" alt="image"></a>
-                                    </div>
-                                    <div class="course__inner">
-                                        <span class="back-category cate-5">Bicycling</span>
-                                        <h3 class="back-course-title"><a href="coureses-single.html">Master Query in a Short<br> Period of Time.</a></h3>
-                                        <div class="course__card-icon d-flex align-items-center">
-                                            <div class="course__card-icon--1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>500k+</span>
-                                            </div>
-                                            <div class="course__card-icon--2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                                <span>4.9</span>
-                                            </div>
-                                            <div class="back__user">
-                                                Free <img src="assets/images/course/small-image/5.png" alt="user">
-                                            </div>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="course__item mb-30">
-                                    <div class="course__thumb">
-                                        <a href="coureses-single.html"><img src="assets/images/course/6.jpg" alt="image"></a>
-                                    </div>
-                                    <div class="course__inner">
-                                        <span class="back-category cate-6">Mechanical</span>
-                                        <h3 class="back-course-title"><a href="coureses-single.html">Personal Finance Financial <br>Security Thinking.</a></h3>
-                                        <div class="course__card-icon d-flex align-items-center">
-                                            <div class="course__card-icon--1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>500k+</span>
-                                            </div>
-                                            <div class="course__card-icon--2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                                <span>4.9</span>
-                                            </div>
-                                            <div class="back__user">
-                                                $54.00 <img src="assets/images/course/small-image/1.png" alt="user">
-                                            </div>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Course Section End Here =================-->
+                                            <div class="single-week">
+                                                <ul class="week__top">
+                                                    <li>Week 2</li>
+                                                    <li>0/6</li>
+                                                </ul>
+                                                <h3>Diplomatic Language</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-                <!--=================  Event Section Start Here ================= -->
-                <div class="event__area p-relative pb-100 pt-120">
-                    <div class="container event__width">
-                        <div class="row">
-                            <div class="col-lg-8 pr-80">
-                                <div class="event__section-wrapper">
-                                    <div class="event__content-wrapper mb-45">
-                                        <h2 class="event__title">Join our <br> Upcoming Events</h2>
-                                        <p class="event__paragraph">Learning is a life-long journey that in fact we never find
-                                            the terminate stop. </p>
-                                    </div>
-                                    <div class="event__card-wrapper">
-                                        <div class="event__card">
-                                            <div class="event__card--date-area">
-                                                <span class="event__card--date-area-1">29</span>
-                                                <span class="event__card--date-area-2">Jun, 2022</span>
+                                                <h3>1Videos,1 Audio,2 Reading</h3>
+                                                <ul class="course__title">
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> <b>Reading:</b> Collocations For Job Interview <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 12 minutes</em></li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-video"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg> <b>Video:</b> Connecting through Technology <em> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 26 minutes</em></li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-headphones"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg> <b>Audio:</b> Strategic Leadership <em class="questions">3 questions</em> <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 8 minutes</em></li>
+                                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> <b>Reading:</b> Web Coding Basics <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 6 minutes</em></li>
+                                                </ul>
                                             </div>
-                                            <div class="event__card--icon-area">
-                                                <span class="event__card--icon-area-1"><i class="icon" data-feather="clock"></i>
-                                                    11:50 am to
-                                                    05:50 pm</span>
-                                                <span class="event__card--icon-area-2"><i class="icon" data-feather="map-pin"></i> New
-                                                    York</span>
-                                                <p class="event__card--icon-area-3">Global Conference for reducing.</p>
-                                            </div>
-                                            <div class="event__card--btn">
-                                                <a href="contact.html" class="w-btn w-btn-8">Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="event__card-wrapper">
-                                        <div class="event__card">
-                                            <div class="event__card--date-area">
-                                                <span class="event__card--date-area-1">12</span>
-                                                <span class="event__card--date-area-2">Aug, 2022</span>
-                                            </div>
-                                            <div class="event__card--icon-area">
-                                                <span class="event__card--icon-area-1"><i class="icon" data-feather="clock"></i>
-                                                    9:30 am to
-                                                    11:30 pm</span>
-                                                <span class="event__card--icon-area-2"><i class="icon" data-feather="map-pin"></i> New
-                                                    York</span>
-                                                <p class="event__card--icon-area-3">Street Performance: Call for Art.</p>
-                                            </div>
-                                            <div class="event__card--btn">
-                                                <a href="contact.html" class="w-btn w-btn-8">Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="event__card-wrapper">
-                                        <div class="event__card">
-                                            <div class="event__card--date-area">
-                                                <span class="event__card--date-area-1">24</span>
-                                                <span class="event__card--date-area-2">May, 2022</span>
-                                            </div>
-                                            <div class="event__card--icon-area">
-                                                <span class="event__card--icon-area-1"><i class="icon" data-feather="clock"></i>
-                                                    4:50 am to
-                                                    07:50 pm</span>
-                                                <span class="event__card--icon-area-2"><i class="icon" data-feather="map-pin"></i> New
-                                                    York</span>
-                                                <p class="event__card--icon-area-3">Global Conference for reducing.</p>
-                                            </div>
-                                            <div class="event__card--btn">
-                                                <a href="contact.html" class="w-btn w-btn-8">Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="event__small-paragraph">Lorem ipsum dolor sit amet, consectetur adall.</p>
-                                    <a class="event__small-paragraph--link" href="#"> View all Event <i class="arrow_right event__small-paragraph--link-icon"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="event__video-btn text-end">
-                                    <img class="m-img image-background" src="assets/images/event/bannner.jpg" alt="Video Image">
-                                    <div class="event__video-btn--play">
-                                    <a href="../../watch.html?v=e5Hc2B50Z7c" class="event__video-btn--play-btn popup-videos">
-                                        <i class="arrow_triangle-right"></i>
-                                    </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--=================  Event Section End Here ================= -->
-                
-                <!--================= Academic Section Start Here =================-->
-                <div class="academic__area p-relative pb-65">
-                    <div class="container academic__width">
-                        <div class="row">
-                            <div class="col-xxl-6 offset-xxl-3 col-xl-6 offset-xl-3 col-lg-6 offset-lg-3">
-                                <div class="academic__title-wrapper text-center mb-60">
-                                    <h6 class="academic__pre-subtitle">Academics Programs</h6>
-                                    <h2 class="academic__title">
-                                        Our Academics Programs
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
-                                <div class="academic__container mb-50">
-                                    <div class="academic__wrapper">
-                                        <div class="academic__wrapper--image m-img">
-                                            <img class="academic__wrapper--image-display" src="assets/images/academic/1.jpg" alt="Three people are standing">
-                                        </div>
-                                        <div class="academic__wrapper--icon-1">
-                                            <img class="academic__wrapper--icon-1-middle" src="assets/images/academic/icon/1.png" alt="icon">
-                                        </div>
-                                    </div>
-                                    <div class="academic__round-area-title text-center">
-                                        <h6 class="academic__round-area-title-1">Undergraduate</h6>
-                                        <p class="academic__round-area-title-2">Online guitar coaching now offers<br>you an
-                                            approachable.</p>
-                                        <a class="academic__round-area-title-3" href="contact.html">Apply Now<i class="arrow_right academic__round-area-title-3--icon"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 mb-50">
-                                <div class="academic__container text-center">
-                                    <div class="academic__wrapper">
-                                        <div class="academic__wrapper--image m-img">
-                                            <img src="assets/images/academic/2.jpg" alt="Three people are standing">
-                                        </div>
-                                        <div class="academic__wrapper--icon-2">
-                                            <img class="academic__wrapper--icon-2-middle-2" src="assets/images/academic/icon/2.png" alt="icon">
-                                        </div>
-                                    </div>
-                                    <div class="academic__round-area-title text-center">
-                                        <h6 class="academic__round-area-title-1">PhD Program</h6>
-                                        <p class="academic__round-area-title-2">Online guitar coaching now offers<br>you an
-                                            approachable.</p>
-                                        <a class="academic__round-area-title-3" href="contact.html">Apply Now<i class="arrow_right academic__round-area-title-3--icon"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 mb-50">
-                                <div class="academic__container text-center">
-                                    <div class="academic__wrapper">
-                                        <div class="academic__wrapper--image m-img">
-                                            <img src="assets/images/academic/3.jpg" alt="Three people are standing">
-                                        </div>
-                                        <div class="academic__wrapper--icon-3">
-                                            <img class="academic__wrapper--icon-3-middle-3" src="assets/images/academic/icon/3.png" alt="icon">
-                                        </div>
-                                    </div>
-                                    <div class="academic__round-area-title text-center">
-                                        <h6 class="academic__round-area-title-1">Postgraduate</h6>
-                                        <p class="academic__round-area-title-2">Online guitar coaching now offers <br> you an
-                                            approachable.</p>
-                                        <a class="academic__round-area-title-3" href="contact.html">Apply Now<i class="arrow_right academic__round-area-title-3--icon"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 mb-50">
-                                <div class="academic__container text-center">
-                                    <div class="academic__wrapper">
-                                        <div class="academic__wrapper--image m-img">
-                                            <img src="assets/images/academic/4.jpg" alt="Three people are standing">
-                                        </div>
-                                        <div class="academic__wrapper--icon-4">
-                                            <img class="academic__wrapper--icon-4-middle-4" src="assets/images/academic/icon/4.png" alt="icon">
-                                        </div>
-                                    </div>
-                                    <div class="academic__round-area-title text-center">
-                                        <h6 class="academic__round-area-title-1">Continuing Education</h6>
-                                        <p class="academic__round-area-title-2">Online guitar coaching now offers <br> you an
-                                            approachable.</p>
-                                        <a class="academic__round-area-title-3" href="contact.html">Apply Now<i class="arrow_right academic__round-area-title-3--icon"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Academic Section Start Here =================-->
 
-                <!--================= Call to Action Section Start Here =================-->
-                <div class="cta__area p-relative m-img pt-120 pb-155">
-                    <div class="container cta__width">
-                        <div class="row">
-                            <div class="col-xxl-12">
-                                <div class="cta__wrapper text-center">
-                                    <h6 class="cta__pre-subtitle">Featured Courses</h6>
-                                    <h2 class="cta__title">Campus Information</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Call to Action Section End Here =================-->
-
-                <!--================= Feature Section Start Here =================-->
-                <div class="feature__area">
-                    <div class="container feature__width">
-                        <div class="row">
-                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="feature__item mb-30 transition-3 white-bg">
-                                    <div class="feature__icon mb-30">
-                                        <img src="assets/images/cta/icon/1.png" alt="This is the icon image">
-                                    </div>
-                                    <div class="feature__content">
-                                        <h3 class="feature__title-1"><a href="contact.html">Student Life</a></h3>
-                                        <p class="feature__paragraph">The modified parameters will be pulled <br> panel
-                                            automatically.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                                <div class="feature__item  feature__item2  mb-30 transition-3 white-bg">
-                                    <div class="feature__icon mb-30">
-                                        <img src="assets/images/cta/icon/2.png" alt="This is the icon image">
-                                    </div>
-                                    <div class="feature__content">
-                                        <h3 class="feature__title-1"><a href="contact.html">Arts & Clubs</a></h3>
-                                        <p class="feature__paragraph">The modified parameters will be pulled <br> panel
-                                            automatically.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-4 col-xl-4 col-lg-4">
-                                <div class="feature__item feature__item3  mb-30  transition-3 white-bg">
-                                    <div class="feature__icon mb-30">
-                                        <img src="assets/images/cta/icon/3.png" alt="This is the icon image">
-                                    </div>
-                                    <div class="feature__content">
-                                        <h3 class="feature__title-1"><a href="contact.html">Sports and Fitness</a></h3>
-                                        <p class="feature__paragraph">The modified parameters will be pulled <br> panel
-                                            automatically.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Feature Section End Here =================-->
-
-                <!--================= Counter Section Start Here =================-->
-                <div class="count__area">
-                    <div class="container count__width">
-                        <div class="row">
-                            <div class="col-xxl-11 col-xl-11 col-lg-11 offset-lg-1">
-                                <div class="row">
-                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                                        <div class="count__content">
-                                            <h3 class="count__content--title-1 counter">10</h3>
-                                            <h3 class="count__content--title-2">K</h3>
-                                            <span class="count__content--plus">+</span>
-                                            <p class="count__content--paragraph">Students worldwide</p>
+                                            <ul class="social-links pt-20">
+                                                <li><h4>Follow us</h4></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
+                                            </ul>
                                         </div>
-                                    </div>
-                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                                        <div class="count__content">
-                                            <h3 class="count__content--title-1 counter">45</h3>
-                                            <h3 class="count__content--title-2">K</h3>
-                                            <span class="count__content--plus">+</span>
-                                            <p class="count__content--paragraph">University worldwide</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                                        <div class="count__content">
-                                            <h3 class="count__content--title-1 counter">28</h3>
-                                            <h3 class="count__content--title-2">K</h3>
-                                            <span class="count__content--plus">+</span>
-                                            <p class="count__content--paragraph">Academic worldwide</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                                        <div class="count__content">
-                                            <h3 class="count__content--title-1 counter">74</h3>
-                                            <h3 class="count__content--title-2">K</h3>
-                                            <span class="count__content--plus">+</span>
-                                            <p class="count__content--paragraph">Total worldwide</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Counter Section End Here =================-->
-
-                <!--================= Blog Section Start Here =================-->
-                <div class="back-blog__area blog__area pt-90 pb-120">
-                    <div class="container blog__width">
-                        <div class="back__title__section text-center">
-                            <h6 class="back__subtitle">From our blog</h6>
-                            <h2 class="back__tittle"> Latest from our Blogs </h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="blog__card mb-50">
-                                    <div class="blog__thumb w-img p-relative">
-                                        <a class="blog__thumb--image" href="blog-details.html">
-                                            <img src="assets/images/blog/1.jpg" alt="This the first card image">
-                                        </a>
-                                        <a class="blog__thumb--pre-title" href="blog.html">Podcast</a>
-                                    </div>
-                                    <div class="blog__card--content">
-                                        <div class="blog__card--content-area mb-25">
-                                            <span class="blog__card--date">April 10, 2022</span>
-                                            <h3 class="blog__card--title"><a href="blog-details.html">Fostering future Schools <br> & social Innovation</a></h3>
-                                            <a class="blog__card--link" href="blog-details.html"> Read more <i class="arrow_right blog__card--link-icon"></i></a>
-                                        </div>
-                                        <div class="blog__card--icon ">
-                                            <div class="blog__card--icon-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>Nerte Gronw</span>
-                                            </div>
-                                            <div class="blog__card--icon-2">
-                                                <div class="blog__card--icon-2-first">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-                                                    <span>5</span>
+                                        <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews">
+                                            <h3>Reviews</h3>
+                                            <p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit.</p>
+                                            <div class="row mt-40">
+                                                <div class="col-lg-4">
+                                                    <div class="five__number">
+                                                        <em>5</em>
+                                                        <div class="back-ratings"> 
+                                                            <i class="icon_star"></i>
+                                                            <i class="icon_star"></i>
+                                                            <i class="icon_star"></i>
+                                                            <i class="icon_star"></i>
+                                                            <i class="icon_star"></i>
+                                                        </div>
+                                                        <h6>4 Ratings</h6>
+                                                    </div>
                                                 </div>
-                                                <div class="blog__card--icon-2-second">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-                                                    <span>3</span>
+                                                <div class="col-lg-8 pl-40 md-pl-15">
+                                                    <div class="back-progress-bar md-mt-60">
+                                                        <div class="skillbar-style2">
+                                                            <h3 class="pb-25">Detailed Rating</h3>
+                                                            <div class="skillbar green-dark-bg" data-percent="100">
+                                                                <span class="skillbar-title">5 stars</span>
+                                                                <p class="skillbar-bar"><span class="skill-bar-percent"></span></p> 
+                                                            </div>        
+                                                            <div class="skillbar" data-percent="30">
+                                                                <span class="skillbar-title">4 stars</span>
+                                                                <p class="skillbar-bar"><span class="skill-bar-percent"></span></p>                         
+                                                            </div>
+                                                            <div class="skillbar pink-bg" data-percent="0">
+                                                                <span class="skillbar-title">3 stars</span>
+                                                                <p class="skillbar-bar"></p>                                
+                                                            </div>
+                                                            <div class="skillbar sky-bg" data-percent="0">
+                                                                <span class="skillbar-title">2 stars</span>
+                                                                <p class="skillbar-bar"></p>                                
+                                                            </div>
+                                                            <div class="skillbar sky-bg" data-percent="">
+                                                                <span class="skillbar-title">1 stars</span>
+                                                                <p class="skillbar-bar"></p>                                
+                                                            </div>
+                                                        </div> 
+                                                    </div>
                                                 </div>
                                             </div>
+
+                                            <h3 class="pt-25 pb-15">2 Comments</h3>
+                                            <a href="#" class="post-author">
+                                                <div class="avatar">
+                                                    <img src="assets/images/course-single/user4.jpg" alt="user"> 
+                                                </div>
+                                                <div class="info">
+                                                    <div class="back-ratings"> 
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                    </div>
+                                                    <p>David blatant have it, standard A bit of how's your father my lady absolutely.</p>           
+                                                    <h4 class="name">Daniel Smith</h4> 
+                                                    <span class="designation">April 16, 2022</span>
+                                                </div>
+                                            </a>
+
+                                            <a href="#" class="post-author">
+                                                <div class="avatar">
+                                                    <img src="assets/images/course-single/user5.jpg" alt="user"> 
+                                                </div>
+                                                <div class="info"> 
+                                                    <div class="back-ratings"> 
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                    </div>                                                                                 
+                                                    <p>David blatant have it, standard A bit of how's your father my lady absolutely.</p>           
+                                                    <h4 class="name">Mark Garcia</h4> 
+                                                    <span class="designation">Jun 24, 2022</span>
+                                                </div>
+                                            </a>
+                                            <div class="blog-form pt-30">
+                                                <h3 class="pb-15">Write a Review</h3>
+                                                <form id="contact-form">                                                    
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="back-input">
+                                                                <input id="name" type="text" name="name" placeholder="Name">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-6 pdl-5">
+                                                            <div class="back-input">
+                                                                <input id="email" type="email" name="email" placeholder="Email">                                  
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="col-lg-12">
+                                                            <div class="back-input">
+                                                                <input id="subject" type="text" name="subject" placeholder="Subject">                                  
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-12">
+                                                            <div class="back-ratings"> <b>Ratings:</b> 
+                                                                <i class="icon_star"></i>
+                                                                <i class="icon_star"></i>
+                                                                <i class="icon_star"></i>
+                                                                <i class="icon_star"></i>
+                                                                <i class="icon_star"></i>
+                                                            </div>
+                                                            <div class="back-textarea">
+                                                                <textarea id="message" name="message" placeholder="Message"></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-12">                                                
+                                                            <button type="submit" class="back-btn">Submit Review</button>
+                                                        </div>
+                                                    </div>                                                    
+                                                </form>
+                                            </div>
+                                            <ul class="social-links pt-40">
+                                                <li><h4>Follow us</h4></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade" id="member" role="tabpanel" aria-labelledby="member">
+                                            <h3>Members Info</h3>
+                                            <p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitaes erat consequat auctor eu in elit.</p>
+                                            <div class="member-sec mt-50">
+                                                <h3>Total number of students in course: 24</h3>
+                                                <ul class="user-section">
+                                                    <li class="user">
+                                                        <span><img src="assets/images/course-single/user.jpg" alt="user"></span>
+                                                        <span><em>Douglas Lyphe</em> Instructor</span>
+                                                    </li>
+                                                    <li><em>04</em> Courses</li>
+                                                    <li><em> 02 </em> Reviews</li>
+                                                    <li><em> 2.50 </em> Rating</li>
+                                                </ul>
+                                                <ul class="user-section">
+                                                    <li class="user">
+                                                        <span><img src="assets/images/course-single/user2.jpg" alt="user"></span>
+                                                        <span><em>Jason Response</em> Teacher </span>
+                                                    </li>
+                                                    <li><em>07</em> Courses</li>
+                                                    <li><em> 8 </em> Reviews</li>
+                                                    <li><em> 3.50 </em> Rating</li>
+                                                </ul>
+                                                <ul class="user-section">
+                                                    <li class="user">
+                                                        <span><img src="assets/images/course-single/user3.jpg" alt="user"></span>
+                                                        <span><em>Eleanor Fant</em> Associate </span>
+                                                    </li>
+                                                    <li><em>02</em> Courses</li>
+                                                    <li><em> 05 </em> Reviews</li>
+                                                    <li><em> 4.00 </em> Rating</li>
+                                                </ul>
+                                            </div>
+                                            <ul class="social-links pt-50">
+                                                <li><h4>Follow us</h4></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
+                                                <li><a href="#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="blog__card mb-50">
-                                    <div class="blog__thumb w-img p-relative">
-                                        <a class="blog__thumb--image" href="blog-details.html">
-                                            <img src="assets/images/blog/2.jpg" alt="This the first card image">
-                                        </a>
-                                        <a class="blog__thumb--pre-title" href="blog.html">Video</a>
+                            <div class="col-lg-4 md-mt-60">
+                                <div class="back-sidebar pl-30 md-pl-0">                                                                        
+                                    <div class="widget get-back-course">
+                                        <h3 class="widget-title">Get the course</h3>
+                                        <select class="from-control">
+                                            <option>Course Option</option>
+                                            <option>Scholarship</option>
+                                            <option>Bangla</option>
+                                            <option>Music</option>
+                                            <option>English</option>
+                                        </select>
+                                        <ul class="price">
+                                            <li>$ 64 USD</li>
+                                            <li>$ 100 USD</li>
+                                            <li>68% OFF</li>
+                                        </ul>
+                                        <a href="#" class="cart__btn back-btn">Add to Cart</a>
+                                        <ul class="price__course">
+                                            <li><i class="icon_house"></i><b>Instructor:</b> Eleanor Fant</li>
+                                            <li><i class="icon_book_alt"></i><b>Lectures:</b> 14</li>
+                                            <li><i class="icon_clock"></i><b>Duration:</b> 6 weeks</li>
+                                            <li><i class="icon_profile"></i><b>Enrolled:</b> 20 students</li>
+                                            <li><i class="icon_globe-2"></i><b>Language:</b> English</li>
+                                        </ul>
                                     </div>
-                                    <div class="blog__card--content">
-                                        <div class="blog__card--content-area mb-25">
-                                            <span class="blog__card--date">July 18, 2022</span>
-                                            <h3 class="blog__card--title"><a href="blog-details.html">The Surprising Reason <br> CollegeTuition</a></h3>
-                                            <a class="blog__card--link" href="blog-details.html">Read more<i class="arrow_right blog__card--link-icon"></i></a>
-                                        </div>
-                                        <div class="blog__card--icon d-flex align-items-center">
-                                            <div class="blog__card--icon-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>Charlie Doyle</span>
-                                            </div>
-                                            <div class="blog__card--icon-2">
-                                                <div class="blog__card--icon-2-first">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-                                                    <span>5</span>
+                                    <div class="widget back-post related__courses">
+                                        <h3 class="widget-title">Related courses</h3>
+                                        <ul class="related-courses">
+                                            <li>
+                                                <a href="coureses-single.html"><span class="post-images"><img src="assets/images/related-course/1.jpg" alt="post"></span></a>
+                                                <div class="titles">
+                                                    <div class="back-ratings"> 
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                    </div>
+                                                    <h4><a href="coureses-single.html">Expand business…</a></h4>
+                                                    <span>$54.00</span>
                                                 </div>
-                                                <div class="blog__card--icon-2-second">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-                                                    <span>3</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                <div class="blog__card mb-50">
-                                    <div class="blog__thumb w-img p-relative">
-                                        <a class="blog__thumb--image" href="blog-details.html">
-                                            <img src="assets/images/blog/3.jpg" alt="This the first card image">
-                                        </a>
-                                        <a class="blog__thumb--pre-title" href="blog.html">Article</a>
-                                    </div>
-                                    <div class="blog__card--content">
-                                        <div class="blog__card--content-area mb-25">
-                                            <span class="blog__card--date">October 10, 2021</span>
-                                            <h3 class="blog__card--title"><a href="blog-details.html">Those other <br> College Expenses about</a></h3>
-                                            <a class="blog__card--link" href="blog-details.html">Read more<i class="arrow_right blog__card--link-icon"></i></a>
-                                        </div>
-                                        <div class="blog__card--icon d-flex align-items-center">
-                                            <div class="blog__card--icon-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                                <span>Owen Christ</span>
-                                            </div>
-                                            <div class="blog__card--icon-2">
-                                                <div class="blog__card--icon-2-first">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-                                                    <span>5</span>
-                                                </div>
-                                                <div class="blog__card--icon-2-second">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-                                                    <span>3</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                            </li>
+                                            <li>
+                                                <a href="coureses-single.html"><span class="post-images"><img src="assets/images/related-course/2.jpg" alt="post"></span></a>
+                                               
+                                                <div class="titles">
+                                                    <div class="back-ratings"> 
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                    </div>
+                                                    <h4><a href="coureses-single.html">Python and JS…</a></h4>
+                                                    <span>$75.00</span>
+                                                </div>                                               
+                                            </li>
+                                            <li>
+                                                <a href="coureses-single.html"><span class="post-images"><img src="assets/images/related-course/3.jpg" alt="post"></span></a>
+                                                <div class="titles">
+                                                    <div class="back-ratings"> 
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                        <i class="icon_star"></i>
+                                                    </div>
+                                                    <h4><a href="coureses-single.html">The evolution of…</a></h4>
+                                                    <span>Free</span>
+                                                </div>                                                
+                                            </li>                                            
+                                        </ul>
+                                    </div>                                   
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
-                <!--================= Blog Section End Here =================-->
+                <!--================= Course Single Section End Here =================-->
+
             </div>
         </div>
         <!--================= Back Wrapper End Here =================-->
 
-        <!--================= Newsletter Section Start Here =================-->
-        <div class="newsletter__area">
-            <div class="container newsletter__width">
-                <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="newsletter__wrapper">
-                            <div class="newsletter__content">
-                                <h2 class="newsletter__title">Newsletter to get <br> in touch</h2>
-                            </div>
-                            <div class="newsletter__form">
-                                <form>
-                                    <input type="email" placeholder="Your Email">
-                                    <button type="submit">Subscribe</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--================= Newsletter Section End Here =================-->
-
         <!--================= Footer Section Start Here =================-->
         <?php
-        include("include/footer.php");
-        ?>
+       include("include/footer.php")
+       ?>
         <!--================= Footer Section End Here =================-->
         
-        <!--================= Scroll to Top Start =================-->
+        <!--================= Scroll Top Start Here =================-->
         <div id="backscrollUp">
             <span aria-hidden="true" class="arrow_carrot-up"></span>
         </div> 
-        <!--================= Scroll to Top End =================-->
+        <!--================= Scroll Top End Here =================-->
 
-        <!--================= Jquery latest version =================-->
+        <!--================= jquery latest version =================-->
         <script src="assets/js/jquery.min.js"></script>
-        <!--================= Modernizr js =================-->
+        <!--================= modernizr js =================-->
         <script src="assets/js/modernizr-2.8.3.min.js"></script>
-        <!--================= Bootstrap js =================-->
+        <!--================= bootstrap js =================-->
         <script src="assets/js/bootstrap.min.js"></script>
-        <!--================= Owl Carousel js =================-->
+        <!--================= owl.carousel js =================-->
         <script src="assets/js/owl.carousel.min.js"></script>
-        <!--================= Magnific Popup =================-->
+        <!--================= magnific popup =================-->
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!--================= Counter up js =================-->
+        <!--================= counter up js =================-->
         <script src="assets/js/jquery.counterup.min.js"></script>
         <script src="assets/js/waypoints.min.js"></script>
-        <!--================= Wow js =================-->
-        <script src="assets/js/wow.min.js"></script>                
+        <!--================= wow js =================-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--================= isotope.pkgd.min js =================-->
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <!--================= imagesloaded.pkgd.min js =================-->
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>   
+        <!--================= skill.bars.jquery.js =================-->
+        <script src="assets/js/skill.bars.jquery.js"></script>             
         <!--================= Back menus js =================-->
         <script src="assets/js/back-menus.js"></script>
-        <!--================= Plugins js =================-->
+        <!--================= plugins js =================-->
         <script src="assets/js/plugins.js"></script>       
-		<!--================= Main js =================-->
+		<!--================= main js =================-->
         <script src="assets/js/main.js"></script>
     </body>
 </html>
