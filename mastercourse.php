@@ -81,8 +81,8 @@
                         <h6 class="back__subtitle">Featured Courses</h6>
                         <h2 class="back__tittle"> Master courses </h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6">
+                    <div class="row mx-auto">
+                        <div class="col-lg-4 offset-2">
                             <div class="course__item mb-30">
                                 <div class="course__thumb">
                                     <a href="coureses-single.html"><img src="assets/images/course/1.jpg"
@@ -117,7 +117,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="course__item mb-30">
                                 <div class="course__thumb">
                                     <a href="coureses-single.html"><img src="assets/images/course/2.jpg"
@@ -157,7 +157,7 @@
             </div>
                 <!--================= Course Single Section End Here =================-->
 
-                <div class="cta__area p-relative m-img pt-120 pb-155">
+                <div class="cta__area p-relative m-img pt-45 pb-150">
                     <div class="container cta__width">
                         <div class="row">
                             <div class="col-xxl-12">
@@ -172,7 +172,7 @@
                 <div class="feature__area">
                     <div class="container feature__width">
                         <div class="row">
-                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div class="feature__item mb-30 transition-3 white-bg">
                                     <div class="feature__icon mb-30">
                                         <img src="assets/images/cta/icon/1.png" alt="This is the icon image">
@@ -184,25 +184,37 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                 <div class="feature__item  feature__item2  mb-30 transition-3 white-bg">
                                     <div class="feature__icon mb-30">
                                         <img src="assets/images/cta/icon/2.png" alt="This is the icon image">
                                     </div>
                                     <div class="feature__content">
-                                        <h3 class="feature__title-1"><a href="contact.html">Java Script</a></h3>
+                                        <h3 class="feature__title-1"><a href="contact.html">CSS</a></h3>
                                         <p class="feature__paragraph">The modified parameters will be pulled <br> panel
                                             automatically.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xxl-4 col-xl-4 col-lg-4">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3">
                                 <div class="feature__item feature__item3  mb-30  transition-3 white-bg">
                                     <div class="feature__icon mb-30">
                                         <img src="assets/images/cta/icon/3.png" alt="This is the icon image">
                                     </div>
                                     <div class="feature__content">
-                                        <h3 class="feature__title-1"><a href="contact.html">CSS</a></h3>
+                                        <h3 class="feature__title-1"><a href="contact.html">SEO</a></h3>
+                                        <p class="feature__paragraph">The modified parameters will be pulled <br> panel
+                                            automatically.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-3">
+                                <div class="feature__item feature__item3  mb-30  transition-3 white-bg">
+                                    <div class="feature__icon mb-30">
+                                        <img src="assets/images/cta/icon/3.png" alt="This is the icon image">
+                                    </div>
+                                    <div class="feature__content">
+                                        <h3 class="feature__title-1"><a href="contact.html">SMO</a></h3>
                                         <p class="feature__paragraph">The modified parameters will be pulled <br> panel
                                             automatically.</p>
                                     </div>
