@@ -182,7 +182,7 @@ body {
 }
 img {
   max-width: 103%;
-  height: auto !important;
+  height: auto ;
 }
 p {
   margin: 0 0 26px;
@@ -5664,7 +5664,7 @@ ul {
   margin-bottom: 50px;
 }
 .back-courses__single-page .course-single-tab .nav.nav-tabs li {
-  width: 25%;
+  width: 33%;
 }
 .back-courses__single-page .course-single-tab .nav.nav-tabs li a {
   border: none;
