@@ -103,18 +103,6 @@ if(isset($_GET['delid'])){
                             $count1=mysqli_num_rows($sql);
                             if($count1>0){
                                 while($row=mysqli_fetch_array($sql)){
-
-
-                            
-
-
-
-                            
-                            
-
-
-                          
-                            
                             ?>
 
                             <div class="card viewnoticeclick">
@@ -123,17 +111,17 @@ if(isset($_GET['delid'])){
 
                                         <div class="media-body">
                                             <div class="content">
-                                                <p class="h5" data-toggle="modal" data-target="#exampleModal" style="cursor:pointer;"><?php echo $row['title'] ?><small
-                                                        class="float-right text-muted">Published:<?php echo $row['publishedDate'] ?></small>
+                                                <p class="h5" style="cursor:pointer;"><?php echo $row['title'] ?><small
+                                                        class="float-right text-muted">Published: <?php echo $row['publishedDate'] ?></small>
                                                 </p>
                                                 <p class="text"><?php echo $row['description'] ?></p>
                                             </div>
                                             <nav class="d-flex text-muted">
-                                                <a href="#" class="icon mr-3"><i class="fe fe-edit"></i></a>
+                                                <a class="icon mr-3" href="notice_update.php?sid=<?php echo $row['id'] ?>"><i class="fe fe-edit"></i></a>
                                                 <a href="noticeboard.php?delid=<?php echo $row['id'] ?>" class="icon mr-3"><i class="fe fe-trash"></i></a>
 
                                                 <a href=""
-                                                    class="text-muted ml-auto">Expiry:<?php echo $row['expiryDate'] ?></a>
+                                                    class="text-muted ml-auto">Expiry: <?php echo $row['expiryDate'] ?></a>
                                             </nav>
                                         </div>
                                     </article>
@@ -151,18 +139,37 @@ if(isset($_GET['delid'])){
 
 
                             } ?>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLabel">Notice Board</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
                                         <div class="modal-body viewnotice">
-                                            ...
+                                           <div class="row">
+                                            <div class="col-lg-12">
+                                                <label for="">Title</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <label for="">Publish Date</label>
+                                                <input type="date" class="form-control">
+                                            </div>
+                                           </div>
+                                           <div class="row">
+                                            <div class="col-lg-12">
+                                                <label for="">Expiry Date</label>
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <label for="">Description</label>
+                                                <textarea rows="4" name="message" class="form-control no-resize"></textarea>
+                                            </div>
+                                           </div>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-primary"
@@ -170,7 +177,7 @@ if(isset($_GET['delid'])){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                            
                         </div>
 
